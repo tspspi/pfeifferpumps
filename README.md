@@ -206,6 +206,10 @@ try:
             print(nextMsg)
 except serial.SerialException as e:
     print("Failed to connect to serial port {}".format(portFile))
+except SerialProtocolViolation as e:
+    print(e)
+except SerialCommunicationError as e:
+    print(e)
 except KeyboardInterrupt:
     print("\r", end="")
     print("Exiting ...")
