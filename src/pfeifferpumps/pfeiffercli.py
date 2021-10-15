@@ -1,5 +1,6 @@
 import sys
 import serial
+import json
 import argparse
 
 from pfeifferproto import PfeifferProtocol, SerialProtocolViolation, SerialCommunicationError
@@ -9,6 +10,7 @@ def pfeifferSnifferCLI():
     ap = argparse.ArgumentParser(description = 'Simple access to Pfeiffer pumps on an RS485 bus attached to a serial port')
     ap.add_argument('-p', '--port', type=str, required=False, default="/dev/ttyU0", help="Serial port to be used to access the RS485 bus")
     ap.add_argument('-d', '--device', type=str, required=False, default=None, action='append', help="Adds a device registerset to a given address (ADR:DEVTYPE). Can be used multiple times")
+    ap.add_argument('-j', '--logjson', type=str, required=False, default=None, help="Specifies a logfile that all captured packets are appended to - in JSON format line per line")
     args = ap.parse_args()
 
     serialPort = args.port
@@ -35,7 +37,10 @@ def pfeifferSnifferCLI():
             # packet = proto.decodePacket(packet, proto.registersTC110)
             nextMsg = port.nextMessage()
             print(nextMsg)
-            pass
+            if args.logjson:
+                with open(args.logjson, "a") as f:
+                    f.write(json.dumps(nextMsg))
+                    f.write("\n")
     except serial.SerialException as e:
         print("Failed to connect to serial port {}".format(portFile))
     except SerialProtocolViolation as e:
