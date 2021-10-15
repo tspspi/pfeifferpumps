@@ -1,7 +1,7 @@
 import serial
 
-
 from pfeifferproto import PfeifferProtocol, SerialProtocolViolation
+from datetime import datetime
 
 class PfeifferRS485Serial:
     def __init__(self, portFile = '/dev/ttyU0', registersets = None):
@@ -42,6 +42,11 @@ class PfeifferRS485Serial:
             if packetRaw["address"] in self.registerset:
                 regset = self.registerset[packetRaw["address"]]
                 packetRaw = self.proto.decodePacket(packetRaw, self.proto.registers[regset])
+
+        # For all received packages we append a timestamp ...
+        tmNow = datetime.now()
+        packetRaw["time"] = str(tmNow)
+        packetRaw["timestamp"] = int(tmNow.timestamp())
 
         return packetRaw
 
