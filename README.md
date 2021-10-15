@@ -236,3 +236,30 @@ or raise an ```SerialProtocolViolation``` in case the device is not supported.
 As one can see from the sample the ```nextMessage()``` routine can be used
 to block for the next message on the bus and return the decoded message as
 soon as it has been received.
+
+The packet returned by ```nextMessage``` looks like the one returned by
+the decode functions - depending if one has configured a registerset for the
+given device address or not. In addition all packets are timestamped with
+a human readable timestamp (```time```) and the unix epoch (```timestamp```):
+
+```
+{
+    'address': 1,
+    'param': 309,
+    'action': 1,
+    'payloadRaw': '015000',
+    'payloadLength': 6,
+    'packetRaw': '0011030906015000026\r',
+    'payload': 15000,
+    'designation': 'Active rotation speed',
+    'displayreg': 'ActualSpd',
+    'regaccess': 0,
+    'regunit': 'Hz',
+    'regmin': 0,
+    'regmax': 999999,
+    'regdefault': None,
+    'regpersistent': False,
+    'time': '2021-10-15 07:00:00.630690',
+    'timestamp': 1634274000
+}
+```
