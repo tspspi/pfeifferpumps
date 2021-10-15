@@ -185,3 +185,50 @@ create a simple packet:
 
 As one can see the format matches the decoding / parsing format and also includes
 the on wire representation as ```packetRaw```
+
+## The RS485 serial port library
+
+The ```PfeifferRS485Serial``` class allows one to access pumps and devices on
+an RS485 bus that's attached via a simple RS232 to RS485 serial bridge. This
+can easily be built using readily available [CP2102 TTL to USB](https://amzn.to/30aAa56)
+adapters and an [MAX485 breakout board](https://amzn.to/3BzgSV2) though for a
+simple sniffer one should remove the termination resistor.
+
+To create a connection one can again use the ```with``` construct:
+
+```
+from pfeifferrs485 import PfeifferRS485Serial
+
+try:
+    with PfeifferRS485Serial(portFile, { 1 : "TC110" }) as port:
+        while True:
+            nextMsg = port.nextMessage()
+            print(nextMsg)
+except serial.SerialException as e:
+    print("Failed to connect to serial port {}".format(portFile))
+except KeyboardInterrupt:
+    print("\r", end="")
+    print("Exiting ...")
+```
+
+As one can see the first argument to the ```PfeifferRS485Serial``` constructor
+specifies the port name or port file name (such as ```/dev/ttyU0``` - which is
+by coincidence also the default value). The second argument allows one to
+specify the devices type / select the register sets for different devices on
+the bus that should be handled while decoding and encoding messages. In case
+one has a ```TC110``` on address 1 and ```DCU110``` on address 0 one could simply
+supply the following dictionary:
+
+```
+{
+    1 : "TC110",
+    0 : "DCU110"
+}
+```
+
+The library will then locate the given registerset from the protocol library
+or raise an ```SerialProtocolViolation``` in case the device is not supported.
+
+As one can see from the sample the ```nextMessage()``` routine can be used
+to block for the next message on the bus and return the decoded message as
+soon as it has been received.
