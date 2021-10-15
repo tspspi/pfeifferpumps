@@ -253,7 +253,7 @@ class PfeifferProtocol:
                 if value > sentenceDictionary[regParam]["max"]:
                     raise SerialProtocolViolation("Parameter {} has maximum value of {} but {} supplied".format(regParam, sentenceDictionary[regParam]["max"], value))
 
-        if checkWritable and (sentenceDictionary[regParam]["access"] != ACCESS_RW):
+        if checkWritable and (sentenceDictionary[regParam]["access"] != ACCESS_RW) and (sentenceDictionary[regParam]["access"] != ACCESS_W):
             raise SerialProtocolViolation("Parameter {} is not writable".format(regParam))
 
         # Try to encode the data ...
