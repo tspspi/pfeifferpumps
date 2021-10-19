@@ -388,5 +388,37 @@ class PfeifferProtocol:
             752 : { "datatype" : 2,  "access" : ACCESS_RW, "display" : "PrsCorrPi2",  "designation" : "Pressure correction factor 2",              "unit" : None,    "min" : None, "max" : None,    "persistent" : True,  "default" : None  },
             777 : { "datatype" : 1,  "access" : ACCESS_RW, "display" : "NomSpdConf",  "designation" : "Nomial rotation speed confirmation",        "unit" : "Hz",    "min" : 0,    "max" : 1500,    "persistent" : True,  "default" : 0     },
             797 : { "datatype" : 1,  "access" : ACCESS_RW, "display" : "RS485Adr",    "designation" : "RS-485 device address",                     "unit" : None,    "min" : 1,    "max" : 255,     "persistent" : True,  "default" : 1     }
+        },
+        "MVP015" : {
+              2 : { "datatype" : 0,  "access" : ACCESS_RW, "display" : "Standby",     "designation" : "Standby",                                   "unit" : None,    "min" : 0,    "max" : 1,       "persistent" : True,  "default" : 0     },
+              9 : { "datatype" : 0,  "access" : ACCESS_W,  "display" : "ErrorAckn",   "designation" : "Fault acknowledgement",                     "unit" : None,    "min" : 1,    "max" : 1,       "persistent" : False, "default" : None  },
+             10 : { "datatype" : 0,  "access" : ACCESS_RW, "display" : "PumpgStatn",  "designation" : "Pump",                                      "unit" : None,    "min" : 0,    "max" : 1,       "persistent" : True,  "default" : 0     },
+             19 : { "datatype" : 7,  "access" : ACCESS_RW, "display" : "Cfg DO2",     "designation" : "Configuration output DO2",                  "unit" : None,    "min" : 0,    "max" : 20,      "persistent" : True,  "default" : 5     },
+             24 : { "datatype" : 7,  "access" : ACCESS_RW, "display" : "Cfg DO1",     "designation" : "Configuration output DO1",                  "unit" : None,    "min" : 0,    "max" : 20,      "persistent" : True,  "default" : 1     },
+             26 : { "datatype" : 7,  "access" : ACCESS_RW, "display" : "SpdSetMode",  "designation" : "Speed setting mode",                        "unit" : None,    "min" : 0,    "max" : 1,       "persistent" : True,  "default" : 0     },
+             30 : { "datatype" : 7,  "access" : ACCESS_RW, "display" : "ValveMode",   "designation" : "Purge gas configuration",                   "unit" : None,    "min" : 0,    "max" : 2,       "persistent" : True,  "default" : 0     },
+             50 : { "datatype" : 0,  "access" : ACCESS_RW, "display" : "PurgeGas",    "designation" : "Purge gas",                                 "unit" : None,    "min" : 0,    "max" : 1,       "persistent" : True,  "default" : 0     },
+             60 : { "datatype" : 7,  "access" : ACCESS_RW, "display" : "CtrlViaInt",  "designation" : "Control via interface",                     "unit" : None,    "min" : 0,    "max" : 255,     "persistent" : True,  "default" : 1     },
+             61 : { "datatype" : 0,  "access" : ACCESS_RW, "display" : "IntSelLckd",  "designation" : "Interface selection locked",                "unit" : None,    "min" : 0,    "max" : 1,       "persistent" : True,  "default" : 0     },
+
+            303 : { "datatype" : 4,  "access" : ACCESS_R,  "display" : "Error code",  "designation" : "Error code",                                "unit" : None,    "min" : None, "max" : None,    "persistent" : False, "default" : None  },
+            309 : { "datatype" : 1,  "access" : ACCESS_R,  "display" : "ActualSpd",   "designation" : "Actual speed",                              "unit" : "Hz",    "min" : None, "max" : None,    "persistent" : False, "default" : None  },
+            310 : { "datatype" : 2,  "access" : ACCESS_R,  "display" : "DrvCurrent",  "designation" : "Drive current",                             "unit" : "A",     "min" : None, "max" : None,    "persistent" : False, "default" : None  },
+            311 : { "datatype" : 1,  "access" : ACCESS_R,  "display" : "OpHrsPump",   "designation" : "Pump operating hours",                      "unit" : "h",     "min" : None, "max" : None,    "persistent" : True,  "default" : None  },
+            312 : { "datatype" : 4,  "access" : ACCESS_R,  "display" : "Fw version",  "designation" : "Software version of the interface board",   "unit" : None,    "min" : None, "max" : None,    "persistent" : False, "default" : None  },
+            313 : { "datatype" : 2,  "access" : ACCESS_R,  "display" : "DrvVoltage",  "designation" : "Supply voltage",                            "unit" : "V",     "min" : None, "max" : None,    "persistent" : False, "default" : None  },
+            314 : { "datatype" : 1,  "access" : ACCESS_R,  "display" : "OpHrsElec",   "designation" : "Electronic drive unit operating hours",     "unit" : "h",     "min" : None, "max" : None,    "persistent" : True,  "default" : None  },
+            315 : { "datatype" : 1,  "access" : ACCESS_R,  "display" : "Nominal Spd", "designation" : "Nominal speed",                             "unit" : "Hz",    "min" : None, "max" : None,    "persistent" : False, "default" : None  },
+            316 : { "datatype" : 1,  "access" : ACCESS_R,  "display" : "DrvPower",    "designation" : "Drive power",                               "unit" : "W",     "min" : None, "max" : None,    "persistent" : False, "default" : None  },
+            330 : { "datatype" : 1,  "access" : ACCESS_R,  "display" : "TempPmpBot",  "designation" : "Temperature of pump",                       "unit" : "C",     "min" : None, "max" : None,    "persistent" : False, "default" : None  },
+            349 : { "datatype" : 4,  "access" : ACCESS_R,  "display" : "ElecName",    "designation" : "Device designation",                        "unit" : None,    "min" : None, "max" : None,    "persistent" : False, "default" : None  },
+            398 : { "datatype" : 4,  "access" : ACCESS_R,  "display" : "HW version",  "designation" : "Hardware version of the interface board",   "unit" : None,    "min" : None, "max" : None,    "persistent" : False, "default" : None  },
+            354 : { "datatype" : 1,  "access" : ACCESS_R,  "display" : "ActualSpd",   "designation" : "Actual speed",                              "unit" : "rpm",   "min" : None, "max" : None,    "persistent" : False, "default" : None  },
+            399 : { "datatype" : 1,  "access" : ACCESS_R,  "display" : "NominalSpd",  "designation" : "Nominal speed",                             "unit" : "rpm",   "min" : None, "max" : None,    "persistent" : False, "default" : None  },
+
+            707 : { "datatype" : 2,  "access" : ACCESS_RW, "display" : "SpdSVal",     "designation" : "Setpoint in speed setting mode",            "unit" : "%",     "min" : 30, "max" : 170,       "persistent" : True,  "default" : 75    },
+            717 : { "datatype" : 2,  "access" : ACCESS_RW, "display" : "StdbySVal",   "designation" : "Setpoint speed in standby mode",            "unit" : "%",     "min" : 30, "max" : 100,       "persistent" : True,  "default" : 66.7  },
+            721 : { "datatype" : 1,  "access" : ACCESS_RW, "display" : "SlgVlvTime",  "designation" : "Setting for purge gas active",              "unit" : "s",     "min" : 5, "max" : 255,        "persistent" : True,  "default" : 60    },
+            797 : { "datatype" : 1,  "access" : ACCESS_RW, "display" : "RS485Adr",    "designation" : "RS485 interface address",                   "unit" : None,    "min" : 1, "max" : 255,        "persistent" : True,  "default" : 2     }
         }
     }
