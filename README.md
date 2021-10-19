@@ -196,8 +196,8 @@ the on wire representation as ```packetRaw```
 The ```PfeifferRS485Serial``` class allows one to access pumps and devices on
 an RS485 bus that's attached via a simple RS232 to RS485 serial bridge. This
 can easily be built using readily available [CP2102 TTL to USB](https://amzn.to/30aAa56)
-adapters and an [MAX485 breakout board](https://amzn.to/3BzgSV2) though for a
-simple sniffer one should remove the termination resistor.
+adapters and an [MAX485 breakout board](https://amzn.to/3BzgSV2) with RE and DE
+tied to ground though for a simple sniffer one should remove the termination resistor.
 
 To create a connection one can again use the ```with``` construct:
 
