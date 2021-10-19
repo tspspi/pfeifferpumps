@@ -1,6 +1,9 @@
 class SerialProtocolViolation(Exception):
     pass
 
+class SerialProtocolUnknownRegister(Exception):
+    pass
+
 class SerialCommunicationError(Exception):
     pass
 
@@ -234,7 +237,7 @@ class PfeifferProtocol:
 
         regParam = int(packet["param"])
         if not regParam in sentenceDictionary:
-            raise SerialProtocolViolation("Unknown register {} in packet".format(regParam))
+            raise SerialProtocolUnknownRegister("Unknown register {} in packet".format(regParam))
 
         if packet["action"] == 1:
             packet["payload"]   = self.decodeDataType(packet["payloadRaw"], sentenceDictionary[regParam]["datatype"])

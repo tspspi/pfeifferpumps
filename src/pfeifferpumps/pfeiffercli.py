@@ -3,7 +3,7 @@ import serial
 import json
 import argparse
 
-from pfeifferproto import PfeifferProtocol, SerialProtocolViolation, SerialCommunicationError, SerialSimulationDone
+from pfeifferproto import PfeifferProtocol, SerialProtocolViolation, SerialCommunicationError, SerialSimulationDone, SerialProtocolUnknownRegister
 from pfeifferrs485 import PfeifferRS485Serial
 
 def pfeifferSnifferCLI():
@@ -48,6 +48,8 @@ def pfeifferSnifferCLI():
                 print(e)
             except SerialCommunicationError as e:
                 print(e)
+            except SerialProtocolUnknownRegister as e:
+                pass
             except KeyboardInterrupt:
                 print("\r", end="")
                 print("Exiting ...")
