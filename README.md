@@ -25,9 +25,10 @@ Currently available utilities:
 
 ## Supported devices
 
-| Type                 | Name  | Support / Comment            |
-| -------------------- | ----- | ---------------------------- |
-| Turbopump controller | TC110 | Protocol handler implemented |
+| Type                 | Name   | Support / Comment                            |
+| -------------------- | ------ | -------------------------------------------- |
+| Turbopump controller | TC110  | Decoder for documented registers implemented |
+| Membrane pump        | MVP015 | Decoder for documented registers implemented |
 
 ## The protocol library
 
@@ -262,4 +263,38 @@ a human readable timestamp (```time```) and the unix epoch (```timestamp```):
     'time': '2021-10-15 07:00:00.630690',
     'timestamp': 1634274000
 }
+```
+
+## The CLI tool
+
+### The sniffer
+
+The protocol sniffer allows one to tap into the RS485 bus and log as well as
+decode all encountered messages. It dumps all encountered messages as well
+as any errors onto the standard output. In addition it allows logging into
+a JSON dump (and is also capable of replaying using the same dump with different
+configurations again just using the raw packet data from the JSON structure - this
+is interesting for development and testing purposes for all library components).
+
+```
+usage: pfeiffersniff [-h] [-p PORT] [-s SIMFILE] [-d DEVICE] [-j LOGJSON]
+                      [--showsim] [--noshowquery] [--noerror]
+
+Simple access to Pfeiffer pumps on an RS485 bus attached to a serial port
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -p PORT, --port PORT  Serial port to be used to access the RS485 bus
+  -s SIMFILE, --simfile SIMFILE
+                        Simulation file. One can supply a JSON dump that
+                        should be injected instead of a real serial port
+  -d DEVICE, --device DEVICE
+                        Adds a device registerset to a given address
+                        (ADR:DEVTYPE). Can be used multiple times
+  -j LOGJSON, --logjson LOGJSON
+                        Specifies a logfile that all captured packets are
+                        appended to - in JSON format line per line
+  --showsim             Show simulated messages
+  --noshowquery         Disable output of query messages
+  --noerror             Disable error messages (protocol violation, etc.)
 ```
