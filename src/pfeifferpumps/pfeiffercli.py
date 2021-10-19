@@ -12,6 +12,9 @@ def pfeifferSnifferCLI():
     ap.add_argument('-s', '--simfile', type=str, required=False, default=None, help="Simulation file. One can supply a JSON dump that should be injected instead of a real serial port")
     ap.add_argument('-d', '--device', type=str, required=False, default=None, action='append', help="Adds a device registerset to a given address (ADR:DEVTYPE). Can be used multiple times")
     ap.add_argument('-j', '--logjson', type=str, required=False, default=None, help="Specifies a logfile that all captured packets are appended to - in JSON format line per line")
+    ap.add_argument('--showsim', action='store_true', help="Show simulated messages")
+    ap.add_argument('--noshowquery', action='store_true', help="Disable output of query messages")
+    ap.add_argument('--noerror', action='store_true', help="Disable error messages (protocol violation, etc.)")
     args = ap.parse_args()
 
     serialPort = args.port
@@ -28,7 +31,7 @@ def pfeifferSnifferCLI():
             exit(1)
         regsets[adr] = devspecparts[1]
 
-    with PfeifferRS485Serial(serialPort, regsets, simulationfile = args.simfile, rawsimulationdump = False) as port:
+    with PfeifferRS485Serial(serialPort, regsets, simulationfile = args.simfile, rawsimulationdump = args.showsim) as port:
         while True:
             try:
                 # nextLine = serialNextLine(port)
@@ -43,11 +46,12 @@ def pfeifferSnifferCLI():
                             unit = nextMsg['regunit']
                         else:
                             unit = ""
-                        print("[DECODED] {}: {} {} {}".format(nextMsg['address'], nextMsg['designation'], nextMsg['payload'], unit))
+                        print("[DECODED] {}, {}: {} {} {}".format(nextMsg['time'], nextMsg['address'], nextMsg['designation'], nextMsg['payload'], unit))
                     else:
-                        print("[DECODED QUERY] {}: {}".format(nextMsg['address'], nextMsg['designation']))
+                        if not args.noshowquery:
+                            print("[DECODED QUERY] {}, {}: {}".format(nextMsg['time'], nextMsg['address'], nextMsg['designation']))
                 else:
-                    print("[CODED] {}".format(nextMsg))
+                    print("[UNKNOWN] {}".format(nextMsg))
                 if args.logjson:
                     with open(args.logjson, "a") as f:
                         f.write(json.dumps(nextMsg))
@@ -55,9 +59,11 @@ def pfeifferSnifferCLI():
             except serial.SerialException as e:
                 print("Failed to connect to serial port {}".format(portFile))
             except SerialProtocolViolation as e:
-                print(e)
+                if not args.noerror:
+                    print(e)
             except SerialCommunicationError as e:
-                print(e)
+                if not args.noerror:
+                    print(e)
             except SerialProtocolUnknownRegister as e:
                 pass
             except KeyboardInterrupt:
