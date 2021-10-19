@@ -1,6 +1,6 @@
 # Unofficial control library and CLI utility for Pfeiffer turbopumps
 
-This is a simple _unofficial_ (it's in no way associated with Pfeiffer vaccuum
+This is a simple _unofficial_ (it's in no way associated with Pfeiffer vacuum
 or any of their partners) Python library and utility collection to work with
 Pfeiffer turbopumps via the RS485 interface.
 
@@ -47,7 +47,7 @@ from pfeifferpumps.pfeifferproto import PfeifferProtocol, SerialProtocolViolatio
 
 Routines for decoding ASCII packets are usually used by the library internally
 to decode packets received on the serial interface - in case a device type
-has been specified the registerset definition can be used to further decode
+has been specified the register set definition can be used to further decode
 and interpret the values. In case one wants to do this by oneself
 there are two routines to decode packets that have been captured as ASCII
 lines - for example in the format ```'0011030906015000026\r'```. The first
@@ -81,10 +81,10 @@ A ```SerialProtocolViolation``` is thrown in case:
 * The message is malformed
 * The checksum is invalid
 
-To further decode the message one has to know the registerset. These are kept
+To further decode the message one has to know the register set. These are kept
 in the dictionary ```registers``` inside the ```PfeifferProtocol``` class as
 a dictionary mapping the device types to register definitions. For
-example ```registers["TC110"]``` would be the registerset definition for
+example ```registers["TC110"]``` would be the register set definition for
 the TC110 turbopump controller. To further decode a previously decoded raw
 packet one can use ```decodePacket(packet, sentenceDictionary)```:
 
@@ -117,7 +117,7 @@ This would yield a dictionary describing the packet:
 ```
 
 As one can see the method decodes the raw payload into the specific datatype (in
-this exampel into an integer) and performs validations on the value - it checks
+this example into an integer) and performs validations on the value - it checks
 if the value is in range, if the encodings are valid, etc. In addition
 it adds:
 
@@ -153,7 +153,7 @@ Arguments:
 * ```value``` is the value that one wants to write into the given register or
   report from the given register. This is encoded in it's native corresponding
   datatype (int, string, float, etc.)
-* The ```sentenceDictionary``` selects the registerset that should be used
+* The ```sentenceDictionary``` selects the register set that should be used
 * When using ```checkWritable``` set to ```True``` the function will only allow
   one to create packets targeting writable registers, when set to ```False``` one
   can encode every packet.
@@ -235,7 +235,7 @@ supply the following dictionary:
 }
 ```
 
-The library will then locate the given registerset from the protocol library
+The library will then locate the given register set from the protocol library
 or raise an ```SerialProtocolViolation``` in case the device is not supported.
 
 As one can see from the sample the ```nextMessage()``` routine can be used
@@ -243,9 +243,9 @@ to block for the next message on the bus and return the decoded message as
 soon as it has been received.
 
 The packet returned by ```nextMessage``` looks like the one returned by
-the decode functions - depending if one has configured a registerset for the
+the decode functions - depending if one has configured a register set for the
 given device address or not. In addition all packets are timestamped with
-a human readable timestamp (```time```) and the unix epoch (```timestamp```):
+a human readable timestamp (```time```) and the Unix epoch (```timestamp```):
 
 ```
 {
