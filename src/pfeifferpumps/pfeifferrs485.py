@@ -5,7 +5,7 @@ from pfeifferproto import PfeifferProtocol, SerialProtocolViolation, SerialSimul
 from datetime import datetime
 
 class PfeifferRS485Serial:
-    def __init__(self, portFile = '/dev/ttyU0', registersets = None, simulationfile = None):
+    def __init__(self, portFile = '/dev/ttyU0', registersets = None, simulationfile = None, rawsimulationdump = True):
         self.proto = PfeifferProtocol()
         self.registerset = registersets
         if registersets:
@@ -21,6 +21,8 @@ class PfeifferRS485Serial:
             self.port = serial.Serial(portFile, baudrate=9600, bytesize=serial.EIGHTBITS, parity=serial.PARITY_NONE, stopbits=serial.STOPBITS_ONE, timeout=None)
         else:
             self.simfile = open(simulationfile, "r")
+        self.rawsimulationdump = rawsimulationdump
+
 
     def __enter__(self):
         return self
@@ -91,7 +93,8 @@ class PfeifferRS485Serial:
             if line:
                 packet = json.loads(line)
                 line = packet['packetRaw']
-                print("[SIMULATION] Simulating packet: {}".format(line))
+                if self.rawsimulationdump:
+                    print("[SIMULATION] Simulating packet: {}".format(line))
                 return line
             else:
                 raise SerialSimulationDone('End of simulation')
