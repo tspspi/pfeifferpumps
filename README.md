@@ -40,7 +40,7 @@ The protocol library is implemented in ```pfeifferproto.py```. It can simply be
 imported using
 
 ```
-from pfeifferproto import PfeifferProtocol, SerialProtocolViolation
+from pfeifferpumps.pfeifferproto import PfeifferProtocol, SerialProtocolViolation, SerialProtocolUnknownRegister
 ```
 
 ### Decoding ASCII packets
@@ -202,7 +202,7 @@ simple sniffer one should remove the termination resistor.
 To create a connection one can again use the ```with``` construct:
 
 ```
-from pfeifferrs485 import PfeifferRS485Serial
+from pfeifferpumps.pfeifferrs485 import PfeifferRS485Serial
 
 try:
     with PfeifferRS485Serial(portFile, { 1 : "TC110" }) as port:
