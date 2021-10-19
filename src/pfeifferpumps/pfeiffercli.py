@@ -28,7 +28,7 @@ def pfeifferSnifferCLI():
             exit(1)
         regsets[adr] = devspecparts[1]
 
-    with PfeifferRS485Serial(serialPort, regsets, simulationfile = args.simfile) as port:
+    with PfeifferRS485Serial(serialPort, regsets, simulationfile = args.simfile, rawsimulationdump = False) as port:
         while True:
             try:
                 # nextLine = serialNextLine(port)
@@ -37,7 +37,17 @@ def pfeifferSnifferCLI():
                 # Currently decode everything according to TC110 register map
                 # packet = proto.decodePacket(packet, proto.registersTC110)
                 nextMsg = port.nextMessage()
-                print(nextMsg)
+                if nextMsg['designation'] and nextMsg['payload']:
+                    if nextMsg['action'] == 1:
+                        if nextMsg['regunit']:
+                            unit = nextMsg['regunit']
+                        else:
+                            unit = ""
+                        print("[DECODED] {}: {} {} {}".format(nextMsg['address'], nextMsg['designation'], nextMsg['payload'], unit))
+                    else:
+                        print("[DECODED QUERY] {}: {}".format(nextMsg['address'], nextMsg['designation']))
+                else:
+                    print("[CODED] {}".format(nextMsg))
                 if args.logjson:
                     with open(args.logjson, "a") as f:
                         f.write(json.dumps(nextMsg))
