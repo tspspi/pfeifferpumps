@@ -1,7 +1,7 @@
 import serial
 import json
 
-from pfeifferproto import PfeifferProtocol, SerialProtocolViolation, SerialSimulationDone
+from pfeifferpumps.pfeifferproto import PfeifferProtocol, SerialProtocolViolation, SerialSimulationDone
 from datetime import datetime
 
 class PfeifferRS485Serial:

@@ -3,8 +3,8 @@ import serial
 import json
 import argparse
 
-from pfeifferproto import PfeifferProtocol, SerialProtocolViolation, SerialCommunicationError, SerialSimulationDone, SerialProtocolUnknownRegister
-from pfeifferrs485 import PfeifferRS485Serial
+from pfeifferpumps.pfeifferproto import PfeifferProtocol, SerialProtocolViolation, SerialCommunicationError, SerialSimulationDone, SerialProtocolUnknownRegister
+from pfeifferpumps.pfeifferrs485 import PfeifferRS485Serial
 
 def pfeifferSnifferCLI():
     ap = argparse.ArgumentParser(description = 'Simple access to Pfeiffer pumps on an RS485 bus attached to a serial port')
@@ -19,17 +19,18 @@ def pfeifferSnifferCLI():
 
     serialPort = args.port
     regsets = { }
-    for devspec in args.device:
-        devspecparts = devspec.split(':')
-        if len(devspecparts) != 2:
-            print("Invalid device address : name specification {}".format(devspec[0]))
-            exit(1)
-        try:
-            adr = int(devspecparts[0])
-        except ValueError:
-            print("Invalid device address {}".format(devspec[0]))
-            exit(1)
-        regsets[adr] = devspecparts[1]
+    if args.device:
+        for devspec in args.device:
+            devspecparts = devspec.split(':')
+            if len(devspecparts) != 2:
+                print("Invalid device address : name specification {}".format(devspec[0]))
+                exit(1)
+            try:
+                adr = int(devspecparts[0])
+            except ValueError:
+                print("Invalid device address {}".format(devspec[0]))
+                exit(1)
+            regsets[adr] = devspecparts[1]
 
     with PfeifferRS485Serial(serialPort, regsets, simulationfile = args.simfile, rawsimulationdump = args.showsim) as port:
         while True:
@@ -40,11 +41,13 @@ def pfeifferSnifferCLI():
                 # Currently decode everything according to TC110 register map
                 # packet = proto.decodePacket(packet, proto.registersTC110)
                 nextMsg = port.nextMessage()
-                if nextMsg['designation'] and nextMsg['payload']:
+                if ("designation" in nextMsg) and ("payload" in nextMsg):
                     if nextMsg['action'] == 1:
-                        if nextMsg['regunit']:
+                        if "regunit" in nextMsg:
                             unit = nextMsg['regunit']
                         else:
+                            unit = ""
+                        if unit == None:
                             unit = ""
                         print("[DECODED] {}, {}: {} {} {}".format(nextMsg['time'], nextMsg['address'], nextMsg['designation'], nextMsg['payload'], unit))
                     else:

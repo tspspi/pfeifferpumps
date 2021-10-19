@@ -4,6 +4,10 @@ This is a simple _unofficial_ (it's in no way associated with Pfeiffer vaccuum
 or any of their partners) Python library and utility collection to work with
 Pfeiffer turbopumps via the RS485 interface.
 
+__WARNING: WORK IN PROGRESS!!__. This project is _not_ generally usable in it's
+current state and there are currently some decoding errors (or capture problems)
+with many status messages queried during startup.
+
 Currently available components:
 
 * ```PfeifferProtocol``` is a simple serialization and deserialization library
@@ -19,7 +23,7 @@ Currently available components:
 
 Currently available utilities:
 
-* ```pfeiffercli``` is a simple command line utility that exposes core features
+* ```pfeiffersniff``` is a simple command line utility that exposes core features
   of the libraries via the CLI to allow simple and easy monitoring of the bus
   and optionally controlling the attached pumps.
 
@@ -297,4 +301,19 @@ optional arguments:
   --showsim             Show simulated messages
   --noshowquery         Disable output of query messages
   --noerror             Disable error messages (protocol violation, etc.)
+```
+
+For example to listen on ```/dev/ttyU1``` for messages, decoding messages
+for a ```TC110``` on address 1 and a ```MVP015``` on address 2 recording
+everything into a ```packets.json``` file:
+
+```
+pfeiffersniff -p /dev/ttyU1 -j ./packets.json -d 1:TC110 -d 2:MVP015
+```
+
+To replay the recorded packets afterwards without showing decoded query
+messages and hiding protocol errors:
+
+```
+pfeiffersniff -s ./packets.json -d 1:TC110 -d 2:MVP015 --noshowquery --noerror
 ```
