@@ -1,0 +1,887 @@
+{"address": 1, "param": 349, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010034902=?111\r", "time": "2021-10-19 11:33:21.851327", "timestamp": 1634636001}
+{"address": 1, "param": 349, "action": 1, "payloadRaw": "TC 110", "payloadLength": 6, "packetRaw": "0011034906TC 110065\r", "time": "2021-10-19 11:33:21.877254", "timestamp": 1634636001}
+{"address": 2, "param": 349, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020034902=?112\r", "time": "2021-10-19 11:33:21.899618", "timestamp": 1634636001}
+{"address": 2, "param": 349, "action": 1, "payloadRaw": "MVP015", "payloadLength": 6, "packetRaw": "0021034906MVP015130\r", "time": "2021-10-19 11:33:21.924380", "timestamp": 1634636001}
+{"address": 1, "param": 0, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010100002=?096\r", "time": "2021-10-19 11:33:21.945504", "timestamp": 1634636001}
+{"address": 1, "param": 0, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011100006NO_DEF180\r", "time": "2021-10-19 11:33:21.971801", "timestamp": 1634636001}
+{"address": 1, "param": 1, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010100102=?097\r", "time": "2021-10-19 11:33:21.994182", "timestamp": 1634636001}
+{"address": 1, "param": 1, "action": 1, "payloadRaw": "Heating       03000000111111", "payloadLength": 28, "packetRaw": "0011100128Heating       03000000111111055\r", "time": "2021-10-19 11:33:22.042928", "timestamp": 1634636002}
+{"address": 1, "param": 2, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010100202=?098\r", "time": "2021-10-19 11:33:22.071291", "timestamp": 1634636002}
+{"address": 1, "param": 2, "action": 1, "payloadRaw": "Standby       03000000111111", "payloadLength": 28, "packetRaw": "0011100228Standby       03000000111111077\r", "time": "2021-10-19 11:33:22.120256", "timestamp": 1634636002}
+{"address": 1, "param": 3, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010100302=?099\r", "time": "2021-10-19 11:33:22.149375", "timestamp": 1634636002}
+{"address": 1, "param": 3, "action": 1, "payloadRaw": "Shutdown      07000000111111", "payloadLength": 28, "packetRaw": "0011100328Shutdown      07000000111111185\r", "time": "2021-10-19 11:33:22.198037", "timestamp": 1634636002}
+{"address": 1, "param": 4, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010100402=?100\r", "time": "2021-10-19 11:33:22.228200", "timestamp": 1634636002}
+{"address": 1, "param": 4, "action": 1, "payloadRaw": "RUTimeCtrl    03000000111111", "payloadLength": 28, "packetRaw": "0011100428RUTimeCtrl    03000000111111229\r", "time": "2021-10-19 11:33:22.276957", "timestamp": 1634636002}
+{"address": 1, "param": 5, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010100502=?101\r", "time": "2021-10-19 11:33:22.306730", "timestamp": 1634636002}
+{"address": 1, "param": 5, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011100506NO_DEF185\r", "time": "2021-10-19 11:33:22.332698", "timestamp": 1634636002}
+{"address": 1, "param": 6, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010100602=?102\r", "time": "2021-10-19 11:33:22.354994", "timestamp": 1634636002}
+{"address": 1, "param": 6, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011100606NO_DEF186\r", "time": "2021-10-19 11:33:22.380893", "timestamp": 1634636002}
+{"address": 1, "param": 7, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010100702=?103\r", "time": "2021-10-19 11:33:22.403138", "timestamp": 1634636002}
+{"address": 1, "param": 7, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011100706NO_DEF187\r", "time": "2021-10-19 11:33:22.429044", "timestamp": 1634636002}
+{"address": 1, "param": 8, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010100802=?104\r", "time": "2021-10-19 11:33:22.451328", "timestamp": 1634636002}
+{"address": 1, "param": 8, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011100806NO_DEF188\r", "time": "2021-10-19 11:33:22.477619", "timestamp": 1634636002}
+{"address": 1, "param": 9, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010100902=?105\r", "time": "2021-10-19 11:33:22.499423", "timestamp": 1634636002}
+{"address": 1, "param": 9, "action": 1, "payloadRaw": "ErrorAckn     02111111111111", "payloadLength": 28, "packetRaw": "0011100928ErrorAckn     02111111111111203\r", "time": "2021-10-19 11:33:22.548234", "timestamp": 1634636002}
+{"address": 1, "param": 10, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010101002=?097\r", "time": "2021-10-19 11:33:22.577721", "timestamp": 1634636002}
+{"address": 1, "param": 10, "action": 1, "payloadRaw": "PumpgStatn    03000000111111", "payloadLength": 28, "packetRaw": "0011101028PumpgStatn    03000000111111042\r", "time": "2021-10-19 11:33:22.626661", "timestamp": 1634636002}
+{"address": 1, "param": 11, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010101102=?098\r", "time": "2021-10-19 11:33:22.656140", "timestamp": 1634636002}
+{"address": 1, "param": 11, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011101106NO_DEF182\r", "time": "2021-10-19 11:33:22.682056", "timestamp": 1634636002}
+{"address": 1, "param": 12, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010101202=?099\r", "time": "2021-10-19 11:33:22.704211", "timestamp": 1634636002}
+{"address": 1, "param": 12, "action": 1, "payloadRaw": "EnableVent    03000000111111", "payloadLength": 28, "packetRaw": "0011101228EnableVent    03000000111111253\r", "time": "2021-10-19 11:33:22.753178", "timestamp": 1634636002}
+{"address": 1, "param": 13, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010101302=?100\r", "time": "2021-10-19 11:33:22.783165", "timestamp": 1634636002}
+{"address": 1, "param": 13, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011101306NO_DEF184\r", "time": "2021-10-19 11:33:22.809088", "timestamp": 1634636002}
+{"address": 1, "param": 14, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010101402=?101\r", "time": "2021-10-19 11:33:22.831159", "timestamp": 1634636002}
+{"address": 1, "param": 14, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011101406NO_DEF185\r", "time": "2021-10-19 11:33:22.857036", "timestamp": 1634636002}
+{"address": 1, "param": 15, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010101502=?102\r", "time": "2021-10-19 11:33:22.879217", "timestamp": 1634636002}
+{"address": 1, "param": 15, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011101506NO_DEF186\r", "time": "2021-10-19 11:33:22.905251", "timestamp": 1634636002}
+{"address": 1, "param": 16, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010101602=?103\r", "time": "2021-10-19 11:33:22.927350", "timestamp": 1634636002}
+{"address": 1, "param": 16, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011101606NO_DEF187\r", "time": "2021-10-19 11:33:22.958512", "timestamp": 1634636002}
+{"address": 1, "param": 17, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010101702=?104\r", "time": "2021-10-19 11:33:22.975695", "timestamp": 1634636002}
+{"address": 1, "param": 17, "action": 1, "payloadRaw": "CfgSpdSwPt    73000000000001", "payloadLength": 28, "packetRaw": "0011101728CfgSpdSwPt    73000000000001229\r", "time": "2021-10-19 11:33:23.024680", "timestamp": 1634636003}
+{"address": 1, "param": 18, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010101802=?105\r", "time": "2021-10-19 11:33:23.055472", "timestamp": 1634636003}
+{"address": 1, "param": 18, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011101806NO_DEF189\r", "time": "2021-10-19 11:33:23.081426", "timestamp": 1634636003}
+{"address": 1, "param": 19, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010101902=?106\r", "time": "2021-10-19 11:33:23.103757", "timestamp": 1634636003}
+{"address": 1, "param": 19, "action": 1, "payloadRaw": "Cfg DO2       73000000000022", "payloadLength": 28, "packetRaw": "0011101928Cfg DO2       73000000000022122\r", "time": "2021-10-19 11:33:23.152666", "timestamp": 1634636003}
+{"address": 1, "param": 20, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010102002=?098\r", "time": "2021-10-19 11:33:23.183482", "timestamp": 1634636003}
+{"address": 1, "param": 20, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011102006NO_DEF182\r", "time": "2021-10-19 11:33:23.209309", "timestamp": 1634636003}
+{"address": 1, "param": 21, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010102102=?099\r", "time": "2021-10-19 11:33:23.231940", "timestamp": 1634636003}
+{"address": 1, "param": 21, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011102106NO_DEF183\r", "time": "2021-10-19 11:33:23.257572", "timestamp": 1634636003}
+{"address": 1, "param": 22, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010102202=?100\r", "time": "2021-10-19 11:33:23.279887", "timestamp": 1634636003}
+{"address": 1, "param": 22, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011102206NO_DEF184\r", "time": "2021-10-19 11:33:23.306027", "timestamp": 1634636003}
+{"address": 1, "param": 23, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010102302=?101\r", "time": "2021-10-19 11:33:23.328104", "timestamp": 1634636003}
+{"address": 1, "param": 23, "action": 1, "payloadRaw": "MotorPump     03000000111111", "payloadLength": 28, "packetRaw": "0011102328MotorPump     03000000111111238\r", "time": "2021-10-19 11:33:23.377142", "timestamp": 1634636003}
+{"address": 1, "param": 24, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010102402=?102\r", "time": "2021-10-19 11:33:23.407046", "timestamp": 1634636003}
+{"address": 1, "param": 24, "action": 1, "payloadRaw": "Cfg DO1       73000000000022", "payloadLength": 28, "packetRaw": "0011102428Cfg DO1       73000000000022117\r", "time": "2021-10-19 11:33:23.456096", "timestamp": 1634636003}
+{"address": 1, "param": 25, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010102502=?103\r", "time": "2021-10-19 11:33:23.486638", "timestamp": 1634636003}
+{"address": 1, "param": 25, "action": 1, "payloadRaw": "OpModeBKP     73000000000003", "payloadLength": 28, "packetRaw": "0011102528OpModeBKP     73000000000003098\r", "time": "2021-10-19 11:33:23.535396", "timestamp": 1634636003}
+{"address": 1, "param": 26, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010102602=?104\r", "time": "2021-10-19 11:33:23.566665", "timestamp": 1634636003}
+{"address": 1, "param": 26, "action": 1, "payloadRaw": "SpdSetMode    73000000000001", "payloadLength": 28, "packetRaw": "0011102628SpdSetMode    73000000000001248\r", "time": "2021-10-19 11:33:23.615428", "timestamp": 1634636003}
+{"address": 1, "param": 27, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010102702=?105\r", "time": "2021-10-19 11:33:23.646250", "timestamp": 1634636003}
+{"address": 1, "param": 27, "action": 1, "payloadRaw": "GasMode       73000000000002", "payloadLength": 28, "packetRaw": "0011102728GasMode       73000000000002034\r", "time": "2021-10-19 11:33:23.695261", "timestamp": 1634636003}
+{"address": 1, "param": 28, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010102802=?106\r", "time": "2021-10-19 11:33:23.726318", "timestamp": 1634636003}
+{"address": 1, "param": 28, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011102806NO_DEF190\r", "time": "2021-10-19 11:33:23.752240", "timestamp": 1634636003}
+{"address": 1, "param": 29, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010102902=?107\r", "time": "2021-10-19 11:33:23.774579", "timestamp": 1634636003}
+{"address": 1, "param": 29, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011102906NO_DEF191\r", "time": "2021-10-19 11:33:23.800527", "timestamp": 1634636003}
+{"address": 1, "param": 30, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010103002=?099\r", "time": "2021-10-19 11:33:23.822683", "timestamp": 1634636003}
+{"address": 1, "param": 30, "action": 1, "payloadRaw": "VentMode      73000000000002", "payloadLength": 28, "packetRaw": "0011103028VentMode      73000000000002126\r", "time": "2021-10-19 11:33:23.871625", "timestamp": 1634636003}
+{"address": 1, "param": 31, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010103102=?100\r", "time": "2021-10-19 11:33:23.902437", "timestamp": 1634636003}
+{"address": 1, "param": 31, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011103106NO_DEF184\r", "time": "2021-10-19 11:33:23.928405", "timestamp": 1634636003}
+{"address": 1, "param": 32, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010103202=?101\r", "time": "2021-10-19 11:33:23.950686", "timestamp": 1634636003}
+{"address": 1, "param": 32, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011103206NO_DEF185\r", "time": "2021-10-19 11:33:23.976773", "timestamp": 1634636003}
+{"address": 1, "param": 33, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010103302=?102\r", "time": "2021-10-19 11:33:24.022120", "timestamp": 1634636004}
+{"address": 1, "param": 33, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011103306NO_DEF186\r", "time": "2021-10-19 11:33:24.047937", "timestamp": 1634636004}
+{"address": 1, "param": 34, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010103402=?103\r", "time": "2021-10-19 11:33:24.070269", "timestamp": 1634636004}
+{"address": 1, "param": 34, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011103406NO_DEF187\r", "time": "2021-10-19 11:33:24.096328", "timestamp": 1634636004}
+{"address": 1, "param": 35, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010103502=?104\r", "time": "2021-10-19 11:33:24.118680", "timestamp": 1634636004}
+{"address": 1, "param": 35, "action": 1, "payloadRaw": "Cfg Acc A1    73000000000014", "payloadLength": 28, "packetRaw": "0011103528Cfg Acc A1    73000000000014237\r", "time": "2021-10-19 11:33:24.167526", "timestamp": 1634636004}
+{"address": 1, "param": 36, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010103602=?105\r", "time": "2021-10-19 11:33:24.198422", "timestamp": 1634636004}
+{"address": 1, "param": 36, "action": 1, "payloadRaw": "Cfg Acc B1    73000000000014", "payloadLength": 28, "packetRaw": "0011103628Cfg Acc B1    73000000000014239\r", "time": "2021-10-19 11:33:24.247181", "timestamp": 1634636004}
+{"address": 1, "param": 37, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010103702=?106\r", "time": "2021-10-19 11:33:24.278187", "timestamp": 1634636004}
+{"address": 1, "param": 37, "action": 1, "payloadRaw": "Cfg Acc A2    73000000000014", "payloadLength": 28, "packetRaw": "0011103728Cfg Acc A2    73000000000014240\r", "time": "2021-10-19 11:33:24.327029", "timestamp": 1634636004}
+{"address": 1, "param": 38, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010103802=?107\r", "time": "2021-10-19 11:33:24.357971", "timestamp": 1634636004}
+{"address": 1, "param": 38, "action": 1, "payloadRaw": "Cfg Acc B2    73000000000014", "payloadLength": 28, "packetRaw": "0011103828Cfg Acc B2    73000000000014242\r", "time": "2021-10-19 11:33:24.409947", "timestamp": 1634636004}
+{"address": 1, "param": 39, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010103902=?108\r", "time": "2021-10-19 11:33:24.437701", "timestamp": 1634636004}
+{"address": 1, "param": 39, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011103906NO_DEF192\r", "time": "2021-10-19 11:33:24.463531", "timestamp": 1634636004}
+{"address": 1, "param": 40, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010104002=?100\r", "time": "2021-10-19 11:33:24.485689", "timestamp": 1634636004}
+{"address": 1, "param": 40, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011104006NO_DEF184\r", "time": "2021-10-19 11:33:24.511570", "timestamp": 1634636004}
+{"address": 1, "param": 41, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010104102=?101\r", "time": "2021-10-19 11:33:24.533831", "timestamp": 1634636004}
+{"address": 1, "param": 41, "action": 1, "payloadRaw": "Press HVen    73000000000003", "payloadLength": 28, "packetRaw": "0011104128Press HVen    73000000000003189\r", "time": "2021-10-19 11:33:24.582811", "timestamp": 1634636004}
+{"address": 1, "param": 42, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010104202=?102\r", "time": "2021-10-19 11:33:24.613542", "timestamp": 1634636004}
+{"address": 1, "param": 42, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011104206NO_DEF186\r", "time": "2021-10-19 11:33:24.881824", "timestamp": 1634636004}
+{"address": 1, "param": 43, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010104302=?103\r", "time": "2021-10-19 11:33:24.883529", "timestamp": 1634636004}
+{"address": 1, "param": 43, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011104306NO_DEF187\r", "time": "2021-10-19 11:33:24.885536", "timestamp": 1634636004}
+{"address": 1, "param": 44, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010104402=?104\r", "time": "2021-10-19 11:33:24.886997", "timestamp": 1634636004}
+{"address": 1, "param": 44, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011104406NO_DEF188\r", "time": "2021-10-19 11:33:24.888503", "timestamp": 1634636004}
+{"address": 1, "param": 45, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010104502=?105\r", "time": "2021-10-19 11:33:24.889821", "timestamp": 1634636004}
+{"address": 1, "param": 45, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011104506NO_DEF189\r", "time": "2021-10-19 11:33:24.891443", "timestamp": 1634636004}
+{"address": 1, "param": 46, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010104602=?106\r", "time": "2021-10-19 11:33:24.892623", "timestamp": 1634636004}
+{"address": 1, "param": 46, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011104606NO_DEF190\r", "time": "2021-10-19 11:33:24.894122", "timestamp": 1634636004}
+{"address": 1, "param": 47, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010104702=?107\r", "time": "2021-10-19 11:33:24.895628", "timestamp": 1634636004}
+{"address": 1, "param": 47, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011104706NO_DEF191\r", "time": "2021-10-19 11:33:24.897198", "timestamp": 1634636004}
+{"address": 1, "param": 48, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010104802=?108\r", "time": "2021-10-19 11:33:24.902646", "timestamp": 1634636004}
+{"address": 1, "param": 48, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011104806NO_DEF192\r", "time": "2021-10-19 11:33:24.928856", "timestamp": 1634636004}
+{"address": 1, "param": 49, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010104902=?109\r", "time": "2021-10-19 11:33:24.950941", "timestamp": 1634636004}
+{"address": 1, "param": 49, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011104906NO_DEF193\r", "time": "2021-10-19 11:33:24.976930", "timestamp": 1634636004}
+{"address": 1, "param": 50, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010105002=?101\r", "time": "2021-10-19 11:33:24.999287", "timestamp": 1634636004}
+{"address": 1, "param": 50, "action": 1, "payloadRaw": "SealingGas    03000000111111", "payloadLength": 28, "packetRaw": "0011105028SealingGas    03000000111111249\r", "time": "2021-10-19 11:33:25.048287", "timestamp": 1634636005}
+{"address": 1, "param": 51, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010105102=?102\r", "time": "2021-10-19 11:33:25.078196", "timestamp": 1634636005}
+{"address": 1, "param": 51, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011105106NO_DEF186\r", "time": "2021-10-19 11:33:25.104318", "timestamp": 1634636005}
+{"address": 1, "param": 52, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010105202=?103\r", "time": "2021-10-19 11:33:25.126343", "timestamp": 1634636005}
+{"address": 1, "param": 52, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011105206NO_DEF187\r", "time": "2021-10-19 11:33:25.152129", "timestamp": 1634636005}
+{"address": 1, "param": 53, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010105302=?104\r", "time": "2021-10-19 11:33:25.174323", "timestamp": 1634636005}
+{"address": 1, "param": 53, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011105306NO_DEF188\r", "time": "2021-10-19 11:33:25.200271", "timestamp": 1634636005}
+{"address": 1, "param": 54, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010105402=?105\r", "time": "2021-10-19 11:33:25.222692", "timestamp": 1634636005}
+{"address": 1, "param": 54, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011105406NO_DEF189\r", "time": "2021-10-19 11:33:25.248547", "timestamp": 1634636005}
+{"address": 1, "param": 55, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010105502=?106\r", "time": "2021-10-19 11:33:25.270941", "timestamp": 1634636005}
+{"address": 1, "param": 55, "action": 1, "payloadRaw": "Cfg AO1       73000000000008", "payloadLength": 28, "packetRaw": "0011105528Cfg AO1       73000000000008122\r", "time": "2021-10-19 11:33:25.319821", "timestamp": 1634636005}
+{"address": 1, "param": 56, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010105602=?107\r", "time": "2021-10-19 11:33:25.350886", "timestamp": 1634636005}
+{"address": 1, "param": 56, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011105606NO_DEF191\r", "time": "2021-10-19 11:33:25.376684", "timestamp": 1634636005}
+{"address": 1, "param": 57, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010105702=?108\r", "time": "2021-10-19 11:33:25.399022", "timestamp": 1634636005}
+{"address": 1, "param": 57, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011105706NO_DEF192\r", "time": "2021-10-19 11:33:25.424972", "timestamp": 1634636005}
+{"address": 1, "param": 58, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010105802=?109\r", "time": "2021-10-19 11:33:25.447180", "timestamp": 1634636005}
+{"address": 1, "param": 58, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011105806NO_DEF193\r", "time": "2021-10-19 11:33:25.474385", "timestamp": 1634636005}
+{"address": 1, "param": 59, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010105902=?110\r", "time": "2021-10-19 11:33:25.495571", "timestamp": 1634636005}
+{"address": 1, "param": 59, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011105906NO_DEF194\r", "time": "2021-10-19 11:33:25.521363", "timestamp": 1634636005}
+{"address": 1, "param": 60, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010106002=?102\r", "time": "2021-10-19 11:33:25.543700", "timestamp": 1634636005}
+{"address": 1, "param": 60, "action": 1, "payloadRaw": "CtrlViaInt    73000001000255", "payloadLength": 28, "packetRaw": "0011106028CtrlViaInt    73000001000255010\r", "time": "2021-10-19 11:33:25.592695", "timestamp": 1634636005}
+{"address": 1, "param": 61, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010106102=?103\r", "time": "2021-10-19 11:33:25.623657", "timestamp": 1634636005}
+{"address": 1, "param": 61, "action": 1, "payloadRaw": "IntSelLckd    03000000111111", "payloadLength": 28, "packetRaw": "0011106128IntSelLckd    03000000111111234\r", "time": "2021-10-19 11:33:25.672474", "timestamp": 1634636005}
+{"address": 1, "param": 62, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010106202=?104\r", "time": "2021-10-19 11:33:25.702290", "timestamp": 1634636005}
+{"address": 1, "param": 62, "action": 1, "payloadRaw": "Cfg DI1       73000000000007", "payloadLength": 28, "packetRaw": "0011106228Cfg DI1       73000000000007116\r", "time": "2021-10-19 11:33:25.751171", "timestamp": 1634636005}
+{"address": 1, "param": 63, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010106302=?105\r", "time": "2021-10-19 11:33:25.782180", "timestamp": 1634636005}
+{"address": 1, "param": 63, "action": 1, "payloadRaw": "Cfg DI2       73000000000007", "payloadLength": 28, "packetRaw": "0011106328Cfg DI2       73000000000007118\r", "time": "2021-10-19 11:33:25.830951", "timestamp": 1634636005}
+{"address": 1, "param": 64, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010106402=?106\r", "time": "2021-10-19 11:33:25.861744", "timestamp": 1634636005}
+{"address": 1, "param": 64, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011106406NO_DEF190\r", "time": "2021-10-19 11:33:25.887772", "timestamp": 1634636005}
+{"address": 1, "param": 65, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010106502=?107\r", "time": "2021-10-19 11:33:25.909743", "timestamp": 1634636005}
+{"address": 1, "param": 65, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011106506NO_DEF191\r", "time": "2021-10-19 11:33:25.935705", "timestamp": 1634636005}
+{"address": 1, "param": 66, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010106602=?108\r", "time": "2021-10-19 11:33:25.957914", "timestamp": 1634636005}
+{"address": 1, "param": 66, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011106606NO_DEF192\r", "time": "2021-10-19 11:33:25.983985", "timestamp": 1634636005}
+{"address": 1, "param": 67, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010106702=?109\r", "time": "2021-10-19 11:33:26.028445", "timestamp": 1634636006}
+{"address": 1, "param": 67, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011106706NO_DEF193\r", "time": "2021-10-19 11:33:26.054473", "timestamp": 1634636006}
+{"address": 1, "param": 68, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010106802=?110\r", "time": "2021-10-19 11:33:26.076934", "timestamp": 1634636006}
+{"address": 1, "param": 68, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011106806NO_DEF194\r", "time": "2021-10-19 11:33:26.102761", "timestamp": 1634636006}
+{"address": 1, "param": 69, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010106902=?111\r", "time": "2021-10-19 11:33:26.124881", "timestamp": 1634636006}
+{"address": 1, "param": 69, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011106906NO_DEF195\r", "time": "2021-10-19 11:33:26.150697", "timestamp": 1634636006}
+{"address": 1, "param": 70, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010107002=?103\r", "time": "2021-10-19 11:33:26.172902", "timestamp": 1634636006}
+{"address": 1, "param": 70, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011107006NO_DEF187\r", "time": "2021-10-19 11:33:26.199076", "timestamp": 1634636006}
+{"address": 1, "param": 71, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010107102=?104\r", "time": "2021-10-19 11:33:26.221277", "timestamp": 1634636006}
+{"address": 1, "param": 71, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011107106NO_DEF188\r", "time": "2021-10-19 11:33:26.247543", "timestamp": 1634636006}
+{"address": 1, "param": 72, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010107202=?105\r", "time": "2021-10-19 11:33:26.269410", "timestamp": 1634636006}
+{"address": 1, "param": 72, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011107206NO_DEF189\r", "time": "2021-10-19 11:33:26.295403", "timestamp": 1634636006}
+{"address": 1, "param": 73, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010107302=?106\r", "time": "2021-10-19 11:33:26.317776", "timestamp": 1634636006}
+{"address": 1, "param": 73, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011107306NO_DEF190\r", "time": "2021-10-19 11:33:26.343750", "timestamp": 1634636006}
+{"address": 1, "param": 74, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010107402=?107\r", "time": "2021-10-19 11:33:26.367188", "timestamp": 1634636006}
+{"address": 1, "param": 74, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011107406NO_DEF191\r", "time": "2021-10-19 11:33:26.391947", "timestamp": 1634636006}
+{"address": 1, "param": 75, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010107502=?108\r", "time": "2021-10-19 11:33:26.414192", "timestamp": 1634636006}
+{"address": 1, "param": 75, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011107506NO_DEF192\r", "time": "2021-10-19 11:33:26.440554", "timestamp": 1634636006}
+{"address": 1, "param": 76, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010107602=?109\r", "time": "2021-10-19 11:33:26.462470", "timestamp": 1634636006}
+{"address": 1, "param": 76, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011107606NO_DEF193\r", "time": "2021-10-19 11:33:26.488513", "timestamp": 1634636006}
+{"address": 1, "param": 77, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010107702=?110\r", "time": "2021-10-19 11:33:26.510677", "timestamp": 1634636006}
+{"address": 1, "param": 77, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011107706NO_DEF194\r", "time": "2021-10-19 11:33:26.536728", "timestamp": 1634636006}
+{"address": 1, "param": 78, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010107802=?111\r", "time": "2021-10-19 11:33:26.558914", "timestamp": 1634636006}
+{"address": 1, "param": 78, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011107806NO_DEF195\r", "time": "2021-10-19 11:33:26.584783", "timestamp": 1634636006}
+{"address": 1, "param": 79, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010107902=?112\r", "time": "2021-10-19 11:33:26.606824", "timestamp": 1634636006}
+{"address": 1, "param": 79, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011107906NO_DEF196\r", "time": "2021-10-19 11:33:26.632817", "timestamp": 1634636006}
+{"address": 1, "param": 80, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010108002=?104\r", "time": "2021-10-19 11:33:26.655321", "timestamp": 1634636006}
+{"address": 1, "param": 80, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011108006NO_DEF188\r", "time": "2021-10-19 11:33:26.680826", "timestamp": 1634636006}
+{"address": 1, "param": 81, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010108102=?105\r", "time": "2021-10-19 11:33:26.703160", "timestamp": 1634636006}
+{"address": 1, "param": 81, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011108106NO_DEF189\r", "time": "2021-10-19 11:33:26.729154", "timestamp": 1634636006}
+{"address": 1, "param": 82, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010108202=?106\r", "time": "2021-10-19 11:33:26.751339", "timestamp": 1634636006}
+{"address": 1, "param": 82, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011108206NO_DEF190\r", "time": "2021-10-19 11:33:26.777483", "timestamp": 1634636006}
+{"address": 1, "param": 83, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010108302=?107\r", "time": "2021-10-19 11:33:26.799699", "timestamp": 1634636006}
+{"address": 1, "param": 83, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011108306NO_DEF191\r", "time": "2021-10-19 11:33:26.825635", "timestamp": 1634636006}
+{"address": 1, "param": 84, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010108402=?108\r", "time": "2021-10-19 11:33:26.848076", "timestamp": 1634636006}
+{"address": 1, "param": 84, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011108406NO_DEF192\r", "time": "2021-10-19 11:33:26.873963", "timestamp": 1634636006}
+{"address": 1, "param": 85, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010108502=?109\r", "time": "2021-10-19 11:33:26.896076", "timestamp": 1634636006}
+{"address": 1, "param": 85, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011108506NO_DEF193\r", "time": "2021-10-19 11:33:26.922133", "timestamp": 1634636006}
+{"address": 1, "param": 86, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010108602=?110\r", "time": "2021-10-19 11:33:26.953837", "timestamp": 1634636006}
+{"address": 1, "param": 86, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011108606NO_DEF194\r", "time": "2021-10-19 11:33:26.970220", "timestamp": 1634636006}
+{"address": 1, "param": 87, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010108702=?111\r", "time": "2021-10-19 11:33:26.992171", "timestamp": 1634636006}
+{"address": 1, "param": 87, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011108706NO_DEF195\r", "time": "2021-10-19 11:33:27.018141", "timestamp": 1634636007}
+{"address": 1, "param": 88, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010108802=?112\r", "time": "2021-10-19 11:33:27.040322", "timestamp": 1634636007}
+{"address": 1, "param": 88, "action": 1, "payloadRaw": "TmpSensClc    77000000000015", "payloadLength": 28, "packetRaw": "0011108828TmpSensClc    77000000000015013\r", "time": "2021-10-19 11:33:27.089271", "timestamp": 1634636007}
+{"address": 1, "param": 89, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010108902=?113\r", "time": "2021-10-19 11:33:27.119907", "timestamp": 1634636007}
+{"address": 1, "param": 89, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011108906NO_DEF197\r", "time": "2021-10-19 11:33:27.145832", "timestamp": 1634636007}
+{"address": 1, "param": 90, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010109002=?105\r", "time": "2021-10-19 11:33:27.168129", "timestamp": 1634636007}
+{"address": 1, "param": 90, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011109006NO_DEF189\r", "time": "2021-10-19 11:33:27.194040", "timestamp": 1634636007}
+{"address": 1, "param": 91, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010109102=?106\r", "time": "2021-10-19 11:33:27.216407", "timestamp": 1634636007}
+{"address": 1, "param": 91, "action": 1, "payloadRaw": "ClrErrHist    06111111111111", "payloadLength": 28, "packetRaw": "0011109128ClrErrHist    06111111111111011\r", "time": "2021-10-19 11:33:27.265318", "timestamp": 1634636007}
+{"address": 1, "param": 92, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010109202=?107\r", "time": "2021-10-19 11:33:27.295220", "timestamp": 1634636007}
+{"address": 1, "param": 92, "action": 1, "payloadRaw": "Virginize     06111111111111", "payloadLength": 28, "packetRaw": "0011109228Virginize     06111111111111001\r", "time": "2021-10-19 11:33:27.343973", "timestamp": 1634636007}
+{"address": 1, "param": 93, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010109302=?108\r", "time": "2021-10-19 11:33:27.373841", "timestamp": 1634636007}
+{"address": 1, "param": 93, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011109306NO_DEF192\r", "time": "2021-10-19 11:33:27.399929", "timestamp": 1634636007}
+{"address": 1, "param": 94, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010109402=?109\r", "time": "2021-10-19 11:33:27.422129", "timestamp": 1634636007}
+{"address": 1, "param": 94, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011109406NO_DEF193\r", "time": "2021-10-19 11:33:27.448187", "timestamp": 1634636007}
+{"address": 1, "param": 95, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010109502=?110\r", "time": "2021-10-19 11:33:27.470333", "timestamp": 1634636007}
+{"address": 1, "param": 95, "action": 1, "payloadRaw": "FactorySet    06111111111111", "payloadLength": 28, "packetRaw": "0011109528FactorySet    06111111111111049\r", "time": "2021-10-19 11:33:27.519251", "timestamp": 1634636007}
+{"address": 1, "param": 96, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010109602=?111\r", "time": "2021-10-19 11:33:27.548989", "timestamp": 1634636007}
+{"address": 1, "param": 96, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011109606NO_DEF195\r", "time": "2021-10-19 11:33:27.574966", "timestamp": 1634636007}
+{"address": 1, "param": 97, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010109702=?112\r", "time": "2021-10-19 11:33:27.597319", "timestamp": 1634636007}
+{"address": 1, "param": 97, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011109706NO_DEF196\r", "time": "2021-10-19 11:33:27.623341", "timestamp": 1634636007}
+{"address": 1, "param": 98, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010109802=?113\r", "time": "2021-10-19 11:33:27.645526", "timestamp": 1634636007}
+{"address": 1, "param": 98, "action": 1, "payloadRaw": "RsOpHrsElc    06111111111111", "payloadLength": 28, "packetRaw": "0011109828RsOpHrsElc    06111111111111245\r", "time": "2021-10-19 11:33:27.694339", "timestamp": 1634636007}
+{"address": 1, "param": 99, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010109902=?114\r", "time": "2021-10-19 11:33:27.724221", "timestamp": 1634636007}
+{"address": 1, "param": 99, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011109906NO_DEF198\r", "time": "2021-10-19 11:33:27.750570", "timestamp": 1634636007}
+{"address": 1, "param": 300, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010130002=?099\r", "time": "2021-10-19 11:33:27.793526", "timestamp": 1634636007}
+{"address": 1, "param": 300, "action": 1, "payloadRaw": "RemotePrio    01000000111111", "payloadLength": 28, "packetRaw": "0011130028RemotePrio    01000000111111029\r", "time": "2021-10-19 11:33:27.842549", "timestamp": 1634636007}
+{"address": 1, "param": 301, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010130102=?100\r", "time": "2021-10-19 11:33:27.871555", "timestamp": 1634636007}
+{"address": 1, "param": 301, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011130106NO_DEF184\r", "time": "2021-10-19 11:33:27.897526", "timestamp": 1634636007}
+{"address": 1, "param": 302, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010130202=?101\r", "time": "2021-10-19 11:33:27.919869", "timestamp": 1634636007}
+{"address": 1, "param": 302, "action": 1, "payloadRaw": "SpdSwPtAtt    01000000111111", "payloadLength": 28, "packetRaw": "0011130228SpdSwPtAtt    01000000111111247\r", "time": "2021-10-19 11:33:27.968677", "timestamp": 1634636007}
+{"address": 1, "param": 303, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010130302=?102\r", "time": "2021-10-19 11:33:27.997710", "timestamp": 1634636007}
+{"address": 1, "param": 303, "action": 1, "payloadRaw": "ErrorCode     41      \u007f\u007f\u007f\u007f\u007f\u007f", "payloadLength": 28, "packetRaw": "0011130328ErrorCode     41      \u007f\u007f\u007f\u007f\u007f\u007f055\r", "time": "2021-10-19 11:33:28.046705", "timestamp": 1634636008}
+{"address": 1, "param": 304, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010130402=?103\r", "time": "2021-10-19 11:33:28.077482", "timestamp": 1634636008}
+{"address": 1, "param": 304, "action": 1, "payloadRaw": "OvTempElec    01000000111111", "payloadLength": 28, "packetRaw": "0011130428OvTempElec    01000000111111239\r", "time": "2021-10-19 11:33:28.126531", "timestamp": 1634636008}
+{"address": 1, "param": 305, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010130502=?104\r", "time": "2021-10-19 11:33:28.155663", "timestamp": 1634636008}
+{"address": 1, "param": 305, "action": 1, "payloadRaw": "OvTempPump    01000000111111", "payloadLength": 28, "packetRaw": "0011130528OvTempPump    01000000111111025\r", "time": "2021-10-19 11:33:28.204426", "timestamp": 1634636008}
+{"address": 1, "param": 306, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010130602=?105\r", "time": "2021-10-19 11:33:28.233943", "timestamp": 1634636008}
+{"address": 1, "param": 306, "action": 1, "payloadRaw": "SetSpdAtt     01000000111111", "payloadLength": 28, "packetRaw": "0011130628SetSpdAtt     01000000111111185\r", "time": "2021-10-19 11:33:28.282869", "timestamp": 1634636008}
+{"address": 1, "param": 307, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010130702=?106\r", "time": "2021-10-19 11:33:28.312280", "timestamp": 1634636008}
+{"address": 1, "param": 307, "action": 1, "payloadRaw": "PumpAccel     01000000111111", "payloadLength": 28, "packetRaw": "0011130728PumpAccel     01000000111111184\r", "time": "2021-10-19 11:33:28.361082", "timestamp": 1634636008}
+{"address": 1, "param": 308, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010130802=?107\r", "time": "2021-10-19 11:33:28.391199", "timestamp": 1634636008}
+{"address": 1, "param": 308, "action": 1, "payloadRaw": "SetRotSpd Hz  11000000999999", "payloadLength": 28, "packetRaw": "0011130828SetRotSpd Hz  11000000999999122\r", "time": "2021-10-19 11:33:28.440074", "timestamp": 1634636008}
+{"address": 1, "param": 309, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010130902=?108\r", "time": "2021-10-19 11:33:28.472855", "timestamp": 1634636008}
+{"address": 1, "param": 309, "action": 1, "payloadRaw": "ActualSpd Hz  11000000999999", "payloadLength": 28, "packetRaw": "0011130928ActualSpd Hz  11000000999999116\r", "time": "2021-10-19 11:33:28.521740", "timestamp": 1634636008}
+{"address": 1, "param": 310, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010131002=?100\r", "time": "2021-10-19 11:33:28.554594", "timestamp": 1634636008}
+{"address": 1, "param": 310, "action": 1, "payloadRaw": "DrvCurrentA   21000000999999", "payloadLength": 28, "packetRaw": "0011131028DrvCurrentA   21000000999999122\r", "time": "2021-10-19 11:33:28.603479", "timestamp": 1634636008}
+{"address": 1, "param": 311, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010131102=?101\r", "time": "2021-10-19 11:33:28.636795", "timestamp": 1634636008}
+{"address": 1, "param": 311, "action": 1, "payloadRaw": "OpHrsPump h   11000000065535", "payloadLength": 28, "packetRaw": "0011131128OpHrsPump h   11000000065535034\r", "time": "2021-10-19 11:33:28.685741", "timestamp": 1634636008}
+{"address": 1, "param": 312, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010131202=?102\r", "time": "2021-10-19 11:33:28.718925", "timestamp": 1634636008}
+{"address": 1, "param": 312, "action": 1, "payloadRaw": "FW Version    41      \u007f\u007f\u007f\u007f\u007f\u007f", "payloadLength": 28, "packetRaw": "0011131228FW Version    41      \u007f\u007f\u007f\u007f\u007f\u007f053\r", "time": "2021-10-19 11:33:28.767735", "timestamp": 1634636008}
+{"address": 1, "param": 313, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010131302=?103\r", "time": "2021-10-19 11:33:28.798589", "timestamp": 1634636008}
+{"address": 1, "param": 313, "action": 1, "payloadRaw": "DrvVoltageV   21000000999999", "payloadLength": 28, "packetRaw": "0011131328DrvVoltageV   21000000999999129\r", "time": "2021-10-19 11:33:28.847569", "timestamp": 1634636008}
+{"address": 1, "param": 314, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010131402=?104\r", "time": "2021-10-19 11:33:28.881172", "timestamp": 1634636008}
+{"address": 1, "param": 314, "action": 1, "payloadRaw": "OpHrsElec h   11000000065535", "payloadLength": 28, "packetRaw": "0011131428OpHrsElec h   11000000065535252\r", "time": "2021-10-19 11:33:28.930051", "timestamp": 1634636008}
+{"address": 1, "param": 315, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010131502=?105\r", "time": "2021-10-19 11:33:28.963347", "timestamp": 1634636008}
+{"address": 1, "param": 315, "action": 1, "payloadRaw": "NominalSpdHz  11000000999999", "payloadLength": 28, "packetRaw": "0011131528NominalSpdHz  11000000999999197\r", "time": "2021-10-19 11:33:29.012290", "timestamp": 1634636009}
+{"address": 1, "param": 316, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010131602=?106\r", "time": "2021-10-19 11:33:29.045537", "timestamp": 1634636009}
+{"address": 1, "param": 316, "action": 1, "payloadRaw": "DrvPower  W   11000000999999", "payloadLength": 28, "packetRaw": "0011131628DrvPower  W   11000000999999255\r", "time": "2021-10-19 11:33:29.094405", "timestamp": 1634636009}
+{"address": 1, "param": 317, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010131702=?107\r", "time": "2021-10-19 11:33:29.128109", "timestamp": 1634636009}
+{"address": 1, "param": 317, "action": 1, "payloadRaw": "MotCurrentA   25000000999999", "payloadLength": 28, "packetRaw": "0011131728MotCurrentA   25000000999999137\r", "time": "2021-10-19 11:33:29.176862", "timestamp": 1634636009}
+{"address": 1, "param": 318, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010131802=?108\r", "time": "2021-10-19 11:33:29.210150", "timestamp": 1634636009}
+{"address": 1, "param": 318, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011131806NO_DEF192\r", "time": "2021-10-19 11:33:29.236424", "timestamp": 1634636009}
+{"address": 1, "param": 319, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010131902=?109\r", "time": "2021-10-19 11:33:29.258601", "timestamp": 1634636009}
+{"address": 1, "param": 319, "action": 1, "payloadRaw": "PumpCycles    11000000065535", "payloadLength": 28, "packetRaw": "0011131928PumpCycles    11000000065535057\r", "time": "2021-10-19 11:33:29.307194", "timestamp": 1634636009}
+{"address": 1, "param": 320, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010132002=?101\r", "time": "2021-10-19 11:33:29.340624", "timestamp": 1634636009}
+{"address": 1, "param": 320, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011132006NO_DEF185\r", "time": "2021-10-19 11:33:29.366459", "timestamp": 1634636009}
+{"address": 1, "param": 321, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010132102=?102\r", "time": "2021-10-19 11:33:29.388906", "timestamp": 1634636009}
+{"address": 1, "param": 321, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011132106NO_DEF186\r", "time": "2021-10-19 11:33:29.414900", "timestamp": 1634636009}
+{"address": 1, "param": 322, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010132202=?103\r", "time": "2021-10-19 11:33:29.437951", "timestamp": 1634636009}
+{"address": 1, "param": 322, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011132206NO_DEF187\r", "time": "2021-10-19 11:33:29.462939", "timestamp": 1634636009}
+{"address": 1, "param": 323, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010132302=?104\r", "time": "2021-10-19 11:33:29.485323", "timestamp": 1634636009}
+{"address": 1, "param": 323, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011132306NO_DEF188\r", "time": "2021-10-19 11:33:29.511215", "timestamp": 1634636009}
+{"address": 1, "param": 324, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010132402=?105\r", "time": "2021-10-19 11:33:29.533566", "timestamp": 1634636009}
+{"address": 1, "param": 324, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011132406NO_DEF189\r", "time": "2021-10-19 11:33:29.559590", "timestamp": 1634636009}
+{"address": 1, "param": 325, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010132502=?106\r", "time": "2021-10-19 11:33:29.581643", "timestamp": 1634636009}
+{"address": 1, "param": 325, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011132506NO_DEF190\r", "time": "2021-10-19 11:33:29.608403", "timestamp": 1634636009}
+{"address": 1, "param": 326, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010132602=?107\r", "time": "2021-10-19 11:33:29.629748", "timestamp": 1634636009}
+{"address": 1, "param": 326, "action": 1, "payloadRaw": "TempElec  oC  11000000999999", "payloadLength": 28, "packetRaw": "0011132628TempElec  oC  11000000999999017\r", "time": "2021-10-19 11:33:29.678686", "timestamp": 1634636009}
+{"address": 1, "param": 327, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010132702=?108\r", "time": "2021-10-19 11:33:29.712504", "timestamp": 1634636009}
+{"address": 1, "param": 327, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011132706NO_DEF192\r", "time": "2021-10-19 11:33:29.738081", "timestamp": 1634636009}
+{"address": 1, "param": 328, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010132802=?109\r", "time": "2021-10-19 11:33:29.760393", "timestamp": 1634636009}
+{"address": 1, "param": 328, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011132806NO_DEF193\r", "time": "2021-10-19 11:33:29.786203", "timestamp": 1634636009}
+{"address": 1, "param": 329, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010132902=?110\r", "time": "2021-10-19 11:33:29.808542", "timestamp": 1634636009}
+{"address": 1, "param": 329, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011132906NO_DEF194\r", "time": "2021-10-19 11:33:29.834440", "timestamp": 1634636009}
+{"address": 1, "param": 330, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010133002=?102\r", "time": "2021-10-19 11:33:29.856914", "timestamp": 1634636009}
+{"address": 1, "param": 330, "action": 1, "payloadRaw": "TempPmpBotoC  11000000999999", "payloadLength": 28, "packetRaw": "0011133028TempPmpBotoC  11000000999999165\r", "time": "2021-10-19 11:33:29.905862", "timestamp": 1634636009}
+{"address": 1, "param": 331, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010133102=?103\r", "time": "2021-10-19 11:33:29.939059", "timestamp": 1634636009}
+{"address": 1, "param": 331, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011133106NO_DEF187\r", "time": "2021-10-19 11:33:29.964977", "timestamp": 1634636009}
+{"address": 1, "param": 332, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010133202=?104\r", "time": "2021-10-19 11:33:29.987198", "timestamp": 1634636009}
+{"address": 1, "param": 332, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011133206NO_DEF188\r", "time": "2021-10-19 11:33:30.013184", "timestamp": 1634636010}
+{"address": 1, "param": 333, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010133302=?105\r", "time": "2021-10-19 11:33:30.057588", "timestamp": 1634636010}
+{"address": 1, "param": 333, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011133306NO_DEF189\r", "time": "2021-10-19 11:33:30.083626", "timestamp": 1634636010}
+{"address": 1, "param": 334, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010133402=?106\r", "time": "2021-10-19 11:33:30.105828", "timestamp": 1634636010}
+{"address": 1, "param": 334, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011133406NO_DEF190\r", "time": "2021-10-19 11:33:30.131741", "timestamp": 1634636010}
+{"address": 1, "param": 335, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010133502=?107\r", "time": "2021-10-19 11:33:30.153931", "timestamp": 1634636010}
+{"address": 1, "param": 335, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011133506NO_DEF191\r", "time": "2021-10-19 11:33:30.179675", "timestamp": 1634636010}
+{"address": 1, "param": 336, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010133602=?108\r", "time": "2021-10-19 11:33:30.202247", "timestamp": 1634636010}
+{"address": 1, "param": 336, "action": 1, "payloadRaw": "AccelDecelrm/s11000000999999", "payloadLength": 28, "packetRaw": "0011133628AccelDecelrm/s11000000999999007\r", "time": "2021-10-19 11:33:30.251008", "timestamp": 1634636010}
+{"address": 1, "param": 337, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010133702=?109\r", "time": "2021-10-19 11:33:30.284708", "timestamp": 1634636010}
+{"address": 1, "param": 337, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011133706NO_DEF193\r", "time": "2021-10-19 11:33:30.310460", "timestamp": 1634636010}
+{"address": 1, "param": 338, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010133802=?110\r", "time": "2021-10-19 11:33:30.332992", "timestamp": 1634636010}
+{"address": 1, "param": 338, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011133806NO_DEF194\r", "time": "2021-10-19 11:33:30.358798", "timestamp": 1634636010}
+{"address": 1, "param": 339, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010133902=?111\r", "time": "2021-10-19 11:33:30.381193", "timestamp": 1634636010}
+{"address": 1, "param": 339, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011133906NO_DEF195\r", "time": "2021-10-19 11:33:30.407017", "timestamp": 1634636010}
+{"address": 1, "param": 340, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010134002=?103\r", "time": "2021-10-19 11:33:30.429578", "timestamp": 1634636010}
+{"address": 1, "param": 340, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011134006NO_DEF187\r", "time": "2021-10-19 11:33:30.455442", "timestamp": 1634636010}
+{"address": 1, "param": 341, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010134102=?104\r", "time": "2021-10-19 11:33:30.480475", "timestamp": 1634636010}
+{"address": 1, "param": 341, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011134106NO_DEF188\r", "time": "2021-10-19 11:33:30.506448", "timestamp": 1634636010}
+{"address": 1, "param": 342, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010134202=?105\r", "time": "2021-10-19 11:33:30.528593", "timestamp": 1634636010}
+{"address": 1, "param": 342, "action": 1, "payloadRaw": "TempBearngoC  11000000999999", "payloadLength": 28, "packetRaw": "0011134228TempBearngoC  11000000999999165\r", "time": "2021-10-19 11:33:30.577471", "timestamp": 1634636010}
+{"address": 1, "param": 343, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010134302=?106\r", "time": "2021-10-19 11:33:30.610950", "timestamp": 1634636010}
+{"address": 1, "param": 343, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011134306NO_DEF190\r", "time": "2021-10-19 11:33:30.636779", "timestamp": 1634636010}
+{"address": 1, "param": 344, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010134402=?107\r", "time": "2021-10-19 11:33:30.658975", "timestamp": 1634636010}
+{"address": 1, "param": 344, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011134406NO_DEF191\r", "time": "2021-10-19 11:33:30.685101", "timestamp": 1634636010}
+{"address": 1, "param": 345, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010134502=?108\r", "time": "2021-10-19 11:33:30.707497", "timestamp": 1634636010}
+{"address": 1, "param": 345, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011134506NO_DEF192\r", "time": "2021-10-19 11:33:30.733243", "timestamp": 1634636010}
+{"address": 1, "param": 346, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010134602=?109\r", "time": "2021-10-19 11:33:30.755627", "timestamp": 1634636010}
+{"address": 1, "param": 346, "action": 1, "payloadRaw": "TempMotor oC  11000000999999", "payloadLength": 28, "packetRaw": "0011134628TempMotor oC  11000000999999139\r", "time": "2021-10-19 11:33:30.804420", "timestamp": 1634636010}
+{"address": 1, "param": 347, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010134702=?110\r", "time": "2021-10-19 11:33:30.837796", "timestamp": 1634636010}
+{"address": 1, "param": 347, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011134706NO_DEF194\r", "time": "2021-10-19 11:33:30.863686", "timestamp": 1634636010}
+{"address": 1, "param": 348, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010134802=?111\r", "time": "2021-10-19 11:33:30.885986", "timestamp": 1634636010}
+{"address": 1, "param": 348, "action": 1, "payloadRaw": "Voltage24VV   25000000999999", "payloadLength": 28, "packetRaw": "0011134828Voltage24VV   25000000999999029\r", "time": "2021-10-19 11:33:30.934998", "timestamp": 1634636010}
+{"address": 1, "param": 349, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010134902=?112\r", "time": "2021-10-19 11:33:30.968093", "timestamp": 1634636010}
+{"address": 1, "param": 349, "action": 1, "payloadRaw": "ElecName      41      \u007f\u007f\u007f\u007f\u007f\u007f", "payloadLength": 28, "packetRaw": "0011134928ElecName      41      \u007f\u007f\u007f\u007f\u007f\u007f214\r", "time": "2021-10-19 11:33:31.017242", "timestamp": 1634636011}
+{"address": 1, "param": 350, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010135002=?104\r", "time": "2021-10-19 11:33:31.048194", "timestamp": 1634636011}
+{"address": 1, "param": 350, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011135006NO_DEF188\r", "time": "2021-10-19 11:33:31.073889", "timestamp": 1634636011}
+{"address": 1, "param": 351, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010135102=?105\r", "time": "2021-10-19 11:33:31.099132", "timestamp": 1634636011}
+{"address": 1, "param": 351, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011135106NO_DEF189\r", "time": "2021-10-19 11:33:31.124996", "timestamp": 1634636011}
+{"address": 1, "param": 352, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010135202=?106\r", "time": "2021-10-19 11:33:31.150422", "timestamp": 1634636011}
+{"address": 1, "param": 352, "action": 1, "payloadRaw": "FwVersDrv     45      \u007f\u007f\u007f\u007f\u007f\u007f", "payloadLength": 28, "packetRaw": "0011135228FwVersDrv     45      \u007f\u007f\u007f\u007f\u007f\u007f067\r", "time": "2021-10-19 11:33:31.199247", "timestamp": 1634636011}
+{"address": 1, "param": 353, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010135302=?107\r", "time": "2021-10-19 11:33:31.230091", "timestamp": 1634636011}
+{"address": 1, "param": 353, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011135306NO_DEF191\r", "time": "2021-10-19 11:33:31.255957", "timestamp": 1634636011}
+{"address": 1, "param": 354, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010135402=?108\r", "time": "2021-10-19 11:33:31.278105", "timestamp": 1634636011}
+{"address": 1, "param": 354, "action": 1, "payloadRaw": "HW Version    41      \u007f\u007f\u007f\u007f\u007f\u007f", "payloadLength": 28, "packetRaw": "0011135428HW Version    41      \u007f\u007f\u007f\u007f\u007f\u007f061\r", "time": "2021-10-19 11:33:31.327058", "timestamp": 1634636011}
+{"address": 1, "param": 355, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010135502=?109\r", "time": "2021-10-19 11:33:31.357901", "timestamp": 1634636011}
+{"address": 1, "param": 355, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011135506NO_DEF193\r", "time": "2021-10-19 11:33:31.383660", "timestamp": 1634636011}
+{"address": 1, "param": 356, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010135602=?110\r", "time": "2021-10-19 11:33:31.406110", "timestamp": 1634636011}
+{"address": 1, "param": 356, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011135606NO_DEF194\r", "time": "2021-10-19 11:33:31.432101", "timestamp": 1634636011}
+{"address": 1, "param": 357, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010135702=?111\r", "time": "2021-10-19 11:33:31.454326", "timestamp": 1634636011}
+{"address": 1, "param": 357, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011135706NO_DEF195\r", "time": "2021-10-19 11:33:31.480437", "timestamp": 1634636011}
+{"address": 1, "param": 358, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010135802=?112\r", "time": "2021-10-19 11:33:31.502823", "timestamp": 1634636011}
+{"address": 1, "param": 358, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011135806NO_DEF196\r", "time": "2021-10-19 11:33:31.529051", "timestamp": 1634636011}
+{"address": 1, "param": 359, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010135902=?113\r", "time": "2021-10-19 11:33:31.550827", "timestamp": 1634636011}
+{"address": 1, "param": 359, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011135906NO_DEF197\r", "time": "2021-10-19 11:33:31.577041", "timestamp": 1634636011}
+{"address": 1, "param": 360, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010136002=?105\r", "time": "2021-10-19 11:33:31.599075", "timestamp": 1634636011}
+{"address": 1, "param": 360, "action": 1, "payloadRaw": "ErrHist1      41      \u007f\u007f\u007f\u007f\u007f\u007f", "payloadLength": 28, "packetRaw": "0011136028ErrHist1      41      \u007f\u007f\u007f\u007f\u007f\u007f199\r", "time": "2021-10-19 11:33:31.648157", "timestamp": 1634636011}
+{"address": 1, "param": 361, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010136102=?106\r", "time": "2021-10-19 11:33:31.679641", "timestamp": 1634636011}
+{"address": 1, "param": 361, "action": 1, "payloadRaw": "ErrHist2      41      \u007f\u007f\u007f\u007f\u007f\u007f", "payloadLength": 28, "packetRaw": "0011136128ErrHist2      41      \u007f\u007f\u007f\u007f\u007f\u007f201\r", "time": "2021-10-19 11:33:31.728533", "timestamp": 1634636011}
+{"address": 1, "param": 362, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010136202=?107\r", "time": "2021-10-19 11:33:31.760042", "timestamp": 1634636011}
+{"address": 1, "param": 362, "action": 1, "payloadRaw": "ErrHist3      41      \u007f\u007f\u007f\u007f\u007f\u007f", "payloadLength": 28, "packetRaw": "0011136228ErrHist3      41      \u007f\u007f\u007f\u007f\u007f\u007f203\r", "time": "2021-10-19 11:33:31.808584", "timestamp": 1634636011}
+{"address": 1, "param": 363, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010136302=?108\r", "time": "2021-10-19 11:33:31.840197", "timestamp": 1634636011}
+{"address": 1, "param": 363, "action": 1, "payloadRaw": "ErrHist4      41      \u007f\u007f\u007f\u007f\u007f\u007f", "payloadLength": 28, "packetRaw": "0011136328ErrHist4      41      \u007f\u007f\u007f\u007f\u007f\u007f205\r", "time": "2021-10-19 11:33:31.889366", "timestamp": 1634636011}
+{"address": 1, "param": 364, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010136402=?109\r", "time": "2021-10-19 11:33:31.920258", "timestamp": 1634636011}
+{"address": 1, "param": 364, "action": 1, "payloadRaw": "ErrHist5      41      \u007f\u007f\u007f\u007f\u007f\u007f", "payloadLength": 28, "packetRaw": "0011136428ErrHist5      41      \u007f\u007f\u007f\u007f\u007f\u007f207\r", "time": "2021-10-19 11:33:31.969315", "timestamp": 1634636011}
+{"address": 1, "param": 365, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010136502=?110\r", "time": "2021-10-19 11:33:32.000483", "timestamp": 1634636012}
+{"address": 1, "param": 365, "action": 1, "payloadRaw": "ErrHist6      41      \u007f\u007f\u007f\u007f\u007f\u007f", "payloadLength": 28, "packetRaw": "0011136528ErrHist6      41      \u007f\u007f\u007f\u007f\u007f\u007f209\r", "time": "2021-10-19 11:33:32.049601", "timestamp": 1634636012}
+{"address": 1, "param": 366, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010136602=?111\r", "time": "2021-10-19 11:33:32.081204", "timestamp": 1634636012}
+{"address": 1, "param": 366, "action": 1, "payloadRaw": "ErrHist7      41      \u007f\u007f\u007f\u007f\u007f\u007f", "payloadLength": 28, "packetRaw": "0011136628ErrHist7      41      \u007f\u007f\u007f\u007f\u007f\u007f211\r", "time": "2021-10-19 11:33:32.129989", "timestamp": 1634636012}
+{"address": 1, "param": 367, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010136702=?112\r", "time": "2021-10-19 11:33:32.184011", "timestamp": 1634636012}
+{"address": 1, "param": 367, "action": 1, "payloadRaw": "ErrHist8      41      \u007f\u007f\u007f\u007f\u007f\u007f", "payloadLength": 28, "packetRaw": "0011136728ErrHist8      41      \u007f\u007f\u007f\u007f\u007f\u007f213\r", "time": "2021-10-19 11:33:32.232872", "timestamp": 1634636012}
+{"address": 1, "param": 368, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010136802=?113\r", "time": "2021-10-19 11:33:32.264335", "timestamp": 1634636012}
+{"address": 1, "param": 368, "action": 1, "payloadRaw": "ErrHist9      41      \u007f\u007f\u007f\u007f\u007f\u007f", "payloadLength": 28, "packetRaw": "0011136828ErrHist9      41      \u007f\u007f\u007f\u007f\u007f\u007f215\r", "time": "2021-10-19 11:33:32.313294", "timestamp": 1634636012}
+{"address": 1, "param": 369, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010136902=?114\r", "time": "2021-10-19 11:33:32.344616", "timestamp": 1634636012}
+{"address": 1, "param": 369, "action": 1, "payloadRaw": "ErrHist10     41      \u007f\u007f\u007f\u007f\u007f\u007f", "payloadLength": 28, "packetRaw": "0011136928ErrHist10     41      \u007f\u007f\u007f\u007f\u007f\u007f224\r", "time": "2021-10-19 11:33:32.393691", "timestamp": 1634636012}
+{"address": 1, "param": 370, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010137002=?106\r", "time": "2021-10-19 11:33:32.424973", "timestamp": 1634636012}
+{"address": 1, "param": 370, "action": 1, "payloadRaw": "ErrHDate1     ;5      \u007f\u007f\u007f\u007f\u007f\u007f", "payloadLength": 28, "packetRaw": "0011137028ErrHDate1     ;5      \u007f\u007f\u007f\u007f\u007f\u007f225\r", "time": "2021-10-19 11:33:32.473947", "timestamp": 1634636012}
+{"address": 1, "param": 371, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010137102=?107\r", "time": "2021-10-19 11:33:32.507397", "timestamp": 1634636012}
+{"address": 1, "param": 371, "action": 1, "payloadRaw": "ErrHDate2     ;5      \u007f\u007f\u007f\u007f\u007f\u007f", "payloadLength": 28, "packetRaw": "0011137128ErrHDate2     ;5      \u007f\u007f\u007f\u007f\u007f\u007f227\r", "time": "2021-10-19 11:33:32.556230", "timestamp": 1634636012}
+{"address": 1, "param": 372, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010137202=?108\r", "time": "2021-10-19 11:33:32.589768", "timestamp": 1634636012}
+{"address": 1, "param": 372, "action": 1, "payloadRaw": "ErrHDate3     ;5      \u007f\u007f\u007f\u007f\u007f\u007f", "payloadLength": 28, "packetRaw": "0011137228ErrHDate3     ;5      \u007f\u007f\u007f\u007f\u007f\u007f229\r", "time": "2021-10-19 11:33:32.638650", "timestamp": 1634636012}
+{"address": 1, "param": 373, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010137302=?109\r", "time": "2021-10-19 11:33:32.672200", "timestamp": 1634636012}
+{"address": 1, "param": 373, "action": 1, "payloadRaw": "ErrHDate4     ;5      \u007f\u007f\u007f\u007f\u007f\u007f", "payloadLength": 28, "packetRaw": "0011137328ErrHDate4     ;5      \u007f\u007f\u007f\u007f\u007f\u007f231\r", "time": "2021-10-19 11:33:32.721116", "timestamp": 1634636012}
+{"address": 1, "param": 374, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010137402=?110\r", "time": "2021-10-19 11:33:32.754433", "timestamp": 1634636012}
+{"address": 1, "param": 374, "action": 1, "payloadRaw": "ErrHDate5     ;5      \u007f\u007f\u007f\u007f\u007f\u007f", "payloadLength": 28, "packetRaw": "0011137428ErrHDate5     ;5      \u007f\u007f\u007f\u007f\u007f\u007f233\r", "time": "2021-10-19 11:33:32.803522", "timestamp": 1634636012}
+{"address": 1, "param": 375, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010137502=?111\r", "time": "2021-10-19 11:33:32.837141", "timestamp": 1634636012}
+{"address": 1, "param": 375, "action": 1, "payloadRaw": "ErrHDate6     ;5      \u007f\u007f\u007f\u007f\u007f\u007f", "payloadLength": 28, "packetRaw": "0011137528ErrHDate6     ;5      \u007f\u007f\u007f\u007f\u007f\u007f235\r", "time": "2021-10-19 11:33:32.885970", "timestamp": 1634636012}
+{"address": 1, "param": 376, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010137602=?112\r", "time": "2021-10-19 11:33:32.919768", "timestamp": 1634636012}
+{"address": 1, "param": 376, "action": 1, "payloadRaw": "ErrHDate7     ;5      \u007f\u007f\u007f\u007f\u007f\u007f", "payloadLength": 28, "packetRaw": "0011137628ErrHDate7     ;5      \u007f\u007f\u007f\u007f\u007f\u007f237\r", "time": "2021-10-19 11:33:32.968979", "timestamp": 1634636012}
+{"address": 1, "param": 377, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010137702=?113\r", "time": "2021-10-19 11:33:33.002468", "timestamp": 1634636013}
+{"address": 1, "param": 377, "action": 1, "payloadRaw": "ErrHDate8     ;5      \u007f\u007f\u007f\u007f\u007f\u007f", "payloadLength": 28, "packetRaw": "0011137728ErrHDate8     ;5      \u007f\u007f\u007f\u007f\u007f\u007f239\r", "time": "2021-10-19 11:33:33.051809", "timestamp": 1634636013}
+{"address": 1, "param": 378, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010137802=?114\r", "time": "2021-10-19 11:33:33.084596", "timestamp": 1634636013}
+{"address": 1, "param": 378, "action": 1, "payloadRaw": "ErrHDate9     ;5      \u007f\u007f\u007f\u007f\u007f\u007f", "payloadLength": 28, "packetRaw": "0011137828ErrHDate9     ;5      \u007f\u007f\u007f\u007f\u007f\u007f241\r", "time": "2021-10-19 11:33:33.133874", "timestamp": 1634636013}
+{"address": 1, "param": 379, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010137902=?115\r", "time": "2021-10-19 11:33:33.167511", "timestamp": 1634636013}
+{"address": 1, "param": 379, "action": 1, "payloadRaw": "ErrHDate10    ;5      \u007f\u007f\u007f\u007f\u007f\u007f", "payloadLength": 28, "packetRaw": "0011137928ErrHDate10    ;5      \u007f\u007f\u007f\u007f\u007f\u007f250\r", "time": "2021-10-19 11:33:33.216121", "timestamp": 1634636013}
+{"address": 1, "param": 380, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010138002=?107\r", "time": "2021-10-19 11:33:33.249902", "timestamp": 1634636013}
+{"address": 1, "param": 380, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011138006NO_DEF191\r", "time": "2021-10-19 11:33:33.275606", "timestamp": 1634636013}
+{"address": 1, "param": 381, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010138102=?108\r", "time": "2021-10-19 11:33:33.297776", "timestamp": 1634636013}
+{"address": 1, "param": 381, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011138106NO_DEF192\r", "time": "2021-10-19 11:33:33.323697", "timestamp": 1634636013}
+{"address": 1, "param": 382, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010138202=?109\r", "time": "2021-10-19 11:33:33.346019", "timestamp": 1634636013}
+{"address": 1, "param": 382, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011138206NO_DEF193\r", "time": "2021-10-19 11:33:33.372034", "timestamp": 1634636013}
+{"address": 1, "param": 383, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010138302=?110\r", "time": "2021-10-19 11:33:33.394891", "timestamp": 1634636013}
+{"address": 1, "param": 383, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011138306NO_DEF194\r", "time": "2021-10-19 11:33:33.422045", "timestamp": 1634636013}
+{"address": 1, "param": 384, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010138402=?111\r", "time": "2021-10-19 11:33:33.442491", "timestamp": 1634636013}
+{"address": 1, "param": 384, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011138406NO_DEF195\r", "time": "2021-10-19 11:33:33.468485", "timestamp": 1634636013}
+{"address": 1, "param": 385, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010138502=?112\r", "time": "2021-10-19 11:33:33.490803", "timestamp": 1634636013}
+{"address": 1, "param": 385, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011138506NO_DEF196\r", "time": "2021-10-19 11:33:33.516716", "timestamp": 1634636013}
+{"address": 1, "param": 386, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010138602=?113\r", "time": "2021-10-19 11:33:33.539127", "timestamp": 1634636013}
+{"address": 1, "param": 386, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011138606NO_DEF197\r", "time": "2021-10-19 11:33:33.568563", "timestamp": 1634636013}
+{"address": 1, "param": 387, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010138702=?114\r", "time": "2021-10-19 11:33:33.587397", "timestamp": 1634636013}
+{"address": 1, "param": 387, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011138706NO_DEF198\r", "time": "2021-10-19 11:33:33.613019", "timestamp": 1634636013}
+{"address": 1, "param": 388, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010138802=?115\r", "time": "2021-10-19 11:33:33.635086", "timestamp": 1634636013}
+{"address": 1, "param": 388, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011138806NO_DEF199\r", "time": "2021-10-19 11:33:33.661045", "timestamp": 1634636013}
+{"address": 1, "param": 389, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010138902=?116\r", "time": "2021-10-19 11:33:33.683774", "timestamp": 1634636013}
+{"address": 1, "param": 389, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011138906NO_DEF200\r", "time": "2021-10-19 11:33:33.709449", "timestamp": 1634636013}
+{"address": 1, "param": 390, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010139002=?108\r", "time": "2021-10-19 11:33:33.731612", "timestamp": 1634636013}
+{"address": 1, "param": 390, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011139006NO_DEF192\r", "time": "2021-10-19 11:33:33.757610", "timestamp": 1634636013}
+{"address": 1, "param": 391, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010139102=?109\r", "time": "2021-10-19 11:33:33.780301", "timestamp": 1634636013}
+{"address": 1, "param": 391, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011139106NO_DEF193\r", "time": "2021-10-19 11:33:33.805944", "timestamp": 1634636013}
+{"address": 1, "param": 392, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010139202=?110\r", "time": "2021-10-19 11:33:33.828220", "timestamp": 1634636013}
+{"address": 1, "param": 392, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011139206NO_DEF194\r", "time": "2021-10-19 11:33:33.854146", "timestamp": 1634636013}
+{"address": 1, "param": 393, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010139302=?111\r", "time": "2021-10-19 11:33:33.876413", "timestamp": 1634636013}
+{"address": 1, "param": 393, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011139306NO_DEF195\r", "time": "2021-10-19 11:33:33.902364", "timestamp": 1634636013}
+{"address": 1, "param": 394, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010139402=?112\r", "time": "2021-10-19 11:33:33.924661", "timestamp": 1634636013}
+{"address": 1, "param": 394, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011139406NO_DEF196\r", "time": "2021-10-19 11:33:33.950651", "timestamp": 1634636013}
+{"address": 1, "param": 395, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010139502=?113\r", "time": "2021-10-19 11:33:33.972778", "timestamp": 1634636013}
+{"address": 1, "param": 395, "action": 1, "payloadRaw": "Config        75000000000999", "payloadLength": 28, "packetRaw": "0011139528Config        75000000000999027\r", "time": "2021-10-19 11:33:34.021788", "timestamp": 1634636014}
+{"address": 1, "param": 396, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010139602=?114\r", "time": "2021-10-19 11:33:34.052721", "timestamp": 1634636014}
+{"address": 1, "param": 396, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011139606NO_DEF198\r", "time": "2021-10-19 11:33:34.078499", "timestamp": 1634636014}
+{"address": 1, "param": 397, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010139702=?115\r", "time": "2021-10-19 11:33:34.100844", "timestamp": 1634636014}
+{"address": 1, "param": 397, "action": 1, "payloadRaw": "SetRotSpd rpm 11000000999999", "payloadLength": 28, "packetRaw": "0011139728SetRotSpd rpm 11000000999999239\r", "time": "2021-10-19 11:33:34.149746", "timestamp": 1634636014}
+{"address": 1, "param": 398, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010139802=?116\r", "time": "2021-10-19 11:33:34.183307", "timestamp": 1634636014}
+{"address": 1, "param": 398, "action": 1, "payloadRaw": "ActualSpd rpm 11000000999999", "payloadLength": 28, "packetRaw": "0011139828ActualSpd rpm 11000000999999233\r", "time": "2021-10-19 11:33:34.232381", "timestamp": 1634636014}
+{"address": 1, "param": 399, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010139902=?117\r", "time": "2021-10-19 11:33:34.265708", "timestamp": 1634636014}
+{"address": 1, "param": 399, "action": 1, "payloadRaw": "NominalSpdrpm 11000000999999", "payloadLength": 28, "packetRaw": "0011139928NominalSpdrpm 11000000999999062\r", "time": "2021-10-19 11:33:34.314700", "timestamp": 1634636014}
+{"address": 1, "param": 700, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010170002=?103\r", "time": "2021-10-19 11:33:34.368389", "timestamp": 1634636014}
+{"address": 1, "param": 700, "action": 1, "payloadRaw": "RUTimeSValmin 13000001000120", "payloadLength": 28, "packetRaw": "0011170028RUTimeSValmin 13000001000120172\r", "time": "2021-10-19 11:33:34.417329", "timestamp": 1634636014}
+{"address": 1, "param": 701, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010170102=?104\r", "time": "2021-10-19 11:33:34.451200", "timestamp": 1634636014}
+{"address": 1, "param": 701, "action": 1, "payloadRaw": "SpdSwPt1  %   13000035000097", "payloadLength": 28, "packetRaw": "0011170128SpdSwPt1  %   13000035000097092\r", "time": "2021-10-19 11:33:34.515565", "timestamp": 1634636014}
+{"address": 1, "param": 702, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010170202=?105\r", "time": "2021-10-19 11:33:34.534448", "timestamp": 1634636014}
+{"address": 1, "param": 702, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011170206NO_DEF189\r", "time": "2021-10-19 11:33:34.560072", "timestamp": 1634636014}
+{"address": 1, "param": 703, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010170302=?106\r", "time": "2021-10-19 11:33:34.582138", "timestamp": 1634636014}
+{"address": 1, "param": 703, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011170306NO_DEF190\r", "time": "2021-10-19 11:33:34.608128", "timestamp": 1634636014}
+{"address": 1, "param": 704, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010170402=?107\r", "time": "2021-10-19 11:33:34.630343", "timestamp": 1634636014}
+{"address": 1, "param": 704, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011170406NO_DEF191\r", "time": "2021-10-19 11:33:34.656392", "timestamp": 1634636014}
+{"address": 1, "param": 705, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010170502=?108\r", "time": "2021-10-19 11:33:34.678611", "timestamp": 1634636014}
+{"address": 1, "param": 705, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011170506NO_DEF192\r", "time": "2021-10-19 11:33:34.704782", "timestamp": 1634636014}
+{"address": 1, "param": 706, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010170602=?109\r", "time": "2021-10-19 11:33:34.726971", "timestamp": 1634636014}
+{"address": 1, "param": 706, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011170606NO_DEF193\r", "time": "2021-10-19 11:33:34.752884", "timestamp": 1634636014}
+{"address": 1, "param": 707, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010170702=?110\r", "time": "2021-10-19 11:33:34.775022", "timestamp": 1634636014}
+{"address": 1, "param": 707, "action": 1, "payloadRaw": "SpdSVal   %   23002000010000", "payloadLength": 28, "packetRaw": "0011170728SpdSVal   %   23002000010000037\r", "time": "2021-10-19 11:33:34.824027", "timestamp": 1634636014}
+{"address": 1, "param": 708, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010170802=?111\r", "time": "2021-10-19 11:33:34.857993", "timestamp": 1634636014}
+{"address": 1, "param": 708, "action": 1, "payloadRaw": "PwrSVal   %   73000010000100", "payloadLength": 28, "packetRaw": "0011170828PwrSVal   %   73000010000100060\r", "time": "2021-10-19 11:33:34.907133", "timestamp": 1634636014}
+{"address": 1, "param": 709, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010170902=?112\r", "time": "2021-10-19 11:33:34.937808", "timestamp": 1634636014}
+{"address": 1, "param": 709, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011170906NO_DEF196\r", "time": "2021-10-19 11:33:34.963721", "timestamp": 1634636014}
+{"address": 1, "param": 710, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010171002=?104\r", "time": "2021-10-19 11:33:34.986260", "timestamp": 1634636014}
+{"address": 1, "param": 710, "action": 1, "payloadRaw": "SwOff BKP W   13000000001000", "payloadLength": 28, "packetRaw": "0011171028SwOff BKP W   13000000001000083\r", "time": "2021-10-19 11:33:35.034884", "timestamp": 1634636015}
+{"address": 1, "param": 711, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010171102=?105\r", "time": "2021-10-19 11:33:35.068871", "timestamp": 1634636015}
+{"address": 1, "param": 711, "action": 1, "payloadRaw": "SwOn BKP  W   13000000001000", "payloadLength": 28, "packetRaw": "0011171128SwOn BKP  W   13000000001000022\r", "time": "2021-10-19 11:33:35.117723", "timestamp": 1634636015}
+{"address": 1, "param": 712, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010171202=?106\r", "time": "2021-10-19 11:33:35.151404", "timestamp": 1634636015}
+{"address": 1, "param": 712, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011171206NO_DEF190\r", "time": "2021-10-19 11:33:35.177294", "timestamp": 1634636015}
+{"address": 1, "param": 713, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010171302=?107\r", "time": "2021-10-19 11:33:35.199524", "timestamp": 1634636015}
+{"address": 1, "param": 713, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011171306NO_DEF191\r", "time": "2021-10-19 11:33:35.225714", "timestamp": 1634636015}
+{"address": 1, "param": 714, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010171402=?108\r", "time": "2021-10-19 11:33:35.247983", "timestamp": 1634636015}
+{"address": 1, "param": 714, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011171406NO_DEF192\r", "time": "2021-10-19 11:33:35.274109", "timestamp": 1634636015}
+{"address": 1, "param": 715, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010171502=?109\r", "time": "2021-10-19 11:33:35.296313", "timestamp": 1634636015}
+{"address": 1, "param": 715, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011171506NO_DEF193\r", "time": "2021-10-19 11:33:35.322426", "timestamp": 1634636015}
+{"address": 1, "param": 716, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010171602=?110\r", "time": "2021-10-19 11:33:35.344647", "timestamp": 1634636015}
+{"address": 1, "param": 716, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011171606NO_DEF194\r", "time": "2021-10-19 11:33:35.370538", "timestamp": 1634636015}
+{"address": 1, "param": 717, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010171702=?111\r", "time": "2021-10-19 11:33:35.392767", "timestamp": 1634636015}
+{"address": 1, "param": 717, "action": 1, "payloadRaw": "StdbySVal %   23002000010000", "payloadLength": 28, "packetRaw": "0011171728StdbySVal %   23002000010000197\r", "time": "2021-10-19 11:33:35.441788", "timestamp": 1634636015}
+{"address": 1, "param": 718, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010171802=?112\r", "time": "2021-10-19 11:33:35.475590", "timestamp": 1634636015}
+{"address": 1, "param": 718, "action": 1, "payloadRaw": "DateTime      ;5      \u007f\u007f\u007f\u007f\u007f\u007f", "payloadLength": 28, "packetRaw": "0011171828DateTime      ;5      \u007f\u007f\u007f\u007f\u007f\u007f244\r", "time": "2021-10-19 11:33:35.524392", "timestamp": 1634636015}
+{"address": 1, "param": 719, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010171902=?113\r", "time": "2021-10-19 11:33:35.558052", "timestamp": 1634636015}
+{"address": 1, "param": 719, "action": 1, "payloadRaw": "SpdSwPt2  %   13000005000097", "payloadLength": 28, "packetRaw": "0011171928SpdSwPt2  %   13000005000097099\r", "time": "2021-10-19 11:33:35.607032", "timestamp": 1634636015}
+{"address": 1, "param": 720, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010172002=?105\r", "time": "2021-10-19 11:33:35.640679", "timestamp": 1634636015}
+{"address": 1, "param": 720, "action": 1, "payloadRaw": "VentSpd   %   73000040000098", "payloadLength": 28, "packetRaw": "0011172028VentSpd   %   73000040000098094\r", "time": "2021-10-19 11:33:35.689456", "timestamp": 1634636015}
+{"address": 1, "param": 721, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010172102=?106\r", "time": "2021-10-19 11:33:35.720242", "timestamp": 1634636015}
+{"address": 1, "param": 721, "action": 1, "payloadRaw": "VentTime  s   13000006003600", "payloadLength": 28, "packetRaw": "0011172128VentTime  s   13000006003600233\r", "time": "2021-10-19 11:33:35.769420", "timestamp": 1634636015}
+{"address": 1, "param": 722, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010172202=?107\r", "time": "2021-10-19 11:33:35.803016", "timestamp": 1634636015}
+{"address": 1, "param": 722, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011172206NO_DEF191\r", "time": "2021-10-19 11:33:35.829018", "timestamp": 1634636015}
+{"address": 1, "param": 723, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010172302=?108\r", "time": "2021-10-19 11:33:35.851374", "timestamp": 1634636015}
+{"address": 1, "param": 723, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011172306NO_DEF192\r", "time": "2021-10-19 11:33:35.877175", "timestamp": 1634636015}
+{"address": 1, "param": 724, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010172402=?109\r", "time": "2021-10-19 11:33:35.899632", "timestamp": 1634636015}
+{"address": 1, "param": 724, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011172406NO_DEF193\r", "time": "2021-10-19 11:33:35.925407", "timestamp": 1634636015}
+{"address": 1, "param": 725, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010172502=?110\r", "time": "2021-10-19 11:33:35.947894", "timestamp": 1634636015}
+{"address": 1, "param": 725, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011172506NO_DEF194\r", "time": "2021-10-19 11:33:35.973639", "timestamp": 1634636015}
+{"address": 1, "param": 726, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010172602=?111\r", "time": "2021-10-19 11:33:35.995888", "timestamp": 1634636015}
+{"address": 1, "param": 726, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011172606NO_DEF195\r", "time": "2021-10-19 11:33:36.021965", "timestamp": 1634636016}
+{"address": 1, "param": 727, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010172702=?112\r", "time": "2021-10-19 11:33:36.044117", "timestamp": 1634636016}
+{"address": 1, "param": 727, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011172706NO_DEF196\r", "time": "2021-10-19 11:33:36.069934", "timestamp": 1634636016}
+{"address": 1, "param": 728, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010172802=?113\r", "time": "2021-10-19 11:33:36.092069", "timestamp": 1634636016}
+{"address": 1, "param": 728, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011172806NO_DEF197\r", "time": "2021-10-19 11:33:36.118107", "timestamp": 1634636016}
+{"address": 1, "param": 729, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010172902=?114\r", "time": "2021-10-19 11:33:36.140294", "timestamp": 1634636016}
+{"address": 1, "param": 729, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011172906NO_DEF198\r", "time": "2021-10-19 11:33:36.166179", "timestamp": 1634636016}
+{"address": 1, "param": 730, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010173002=?106\r", "time": "2021-10-19 11:33:36.188605", "timestamp": 1634636016}
+{"address": 1, "param": 730, "action": 1, "payloadRaw": "Press1SwPthPa :3000000999999", "payloadLength": 28, "packetRaw": "0011173028Press1SwPthPa :3000000999999223\r", "time": "2021-10-19 11:33:36.237409", "timestamp": 1634636016}
+{"address": 1, "param": 731, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010173102=?107\r", "time": "2021-10-19 11:33:36.271600", "timestamp": 1634636016}
+{"address": 1, "param": 731, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011173106NO_DEF191\r", "time": "2021-10-19 11:33:36.297708", "timestamp": 1634636016}
+{"address": 1, "param": 732, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010173202=?108\r", "time": "2021-10-19 11:33:36.319987", "timestamp": 1634636016}
+{"address": 1, "param": 732, "action": 1, "payloadRaw": "Press2SwPthPa :3000000999999", "payloadLength": 28, "packetRaw": "0011173228Press2SwPthPa :3000000999999226\r", "time": "2021-10-19 11:33:36.368767", "timestamp": 1634636016}
+{"address": 1, "param": 733, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010173302=?109\r", "time": "2021-10-19 11:33:36.423276", "timestamp": 1634636016}
+{"address": 1, "param": 733, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011173306NO_DEF193\r", "time": "2021-10-19 11:33:36.449391", "timestamp": 1634636016}
+{"address": 1, "param": 734, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010173402=?110\r", "time": "2021-10-19 11:33:36.471598", "timestamp": 1634636016}
+{"address": 1, "param": 734, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011173406NO_DEF194\r", "time": "2021-10-19 11:33:36.497465", "timestamp": 1634636016}
+{"address": 1, "param": 735, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010173502=?111\r", "time": "2021-10-19 11:33:36.519524", "timestamp": 1634636016}
+{"address": 1, "param": 735, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011173506NO_DEF195\r", "time": "2021-10-19 11:33:36.545606", "timestamp": 1634636016}
+{"address": 1, "param": 736, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010173602=?112\r", "time": "2021-10-19 11:33:36.567573", "timestamp": 1634636016}
+{"address": 1, "param": 736, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011173606NO_DEF196\r", "time": "2021-10-19 11:33:36.595478", "timestamp": 1634636016}
+{"address": 1, "param": 737, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010173702=?113\r", "time": "2021-10-19 11:33:36.615882", "timestamp": 1634636016}
+{"address": 1, "param": 737, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011173706NO_DEF197\r", "time": "2021-10-19 11:33:36.641772", "timestamp": 1634636016}
+{"address": 1, "param": 738, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010173802=?114\r", "time": "2021-10-19 11:33:36.664049", "timestamp": 1634636016}
+{"address": 1, "param": 738, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011173806NO_DEF198\r", "time": "2021-10-19 11:33:36.690243", "timestamp": 1634636016}
+{"address": 1, "param": 739, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010173902=?115\r", "time": "2021-10-19 11:33:36.715601", "timestamp": 1634636016}
+{"address": 1, "param": 739, "action": 1, "payloadRaw": "Press1Name    41      \u007f\u007f\u007f\u007f\u007f\u007f", "payloadLength": 28, "packetRaw": "0011173928Press1Name    41      \u007f\u007f\u007f\u007f\u007f\u007f094\r", "time": "2021-10-19 11:33:36.764557", "timestamp": 1634636016}
+{"address": 1, "param": 740, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010174002=?107\r", "time": "2021-10-19 11:33:36.795730", "timestamp": 1634636016}
+{"address": 1, "param": 740, "action": 1, "payloadRaw": "Pressure 1hPa :3000000000000", "payloadLength": 28, "packetRaw": "0011174028Pressure 1hPa :3000000000000136\r", "time": "2021-10-19 11:33:36.844679", "timestamp": 1634636016}
+{"address": 1, "param": 741, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010174102=?108\r", "time": "2021-10-19 11:33:36.878735", "timestamp": 1634636016}
+{"address": 1, "param": 741, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011174106NO_DEF192\r", "time": "2021-10-19 11:33:36.904672", "timestamp": 1634636016}
+{"address": 1, "param": 742, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010174202=?109\r", "time": "2021-10-19 11:33:36.926905", "timestamp": 1634636016}
+{"address": 1, "param": 742, "action": 1, "payloadRaw": "Press1Corr    23000010000800", "payloadLength": 28, "packetRaw": "0011174228Press1Corr    23000010000800252\r", "time": "2021-10-19 11:33:36.975811", "timestamp": 1634636016}
+{"address": 1, "param": 743, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010174302=?110\r", "time": "2021-10-19 11:33:37.010185", "timestamp": 1634636017}
+{"address": 1, "param": 743, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011174306NO_DEF194\r", "time": "2021-10-19 11:33:37.036191", "timestamp": 1634636017}
+{"address": 1, "param": 744, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010174402=?111\r", "time": "2021-10-19 11:33:37.058429", "timestamp": 1634636017}
+{"address": 1, "param": 744, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011174406NO_DEF195\r", "time": "2021-10-19 11:33:37.084173", "timestamp": 1634636017}
+{"address": 1, "param": 745, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010174502=?112\r", "time": "2021-10-19 11:33:37.106795", "timestamp": 1634636017}
+{"address": 1, "param": 745, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011174506NO_DEF196\r", "time": "2021-10-19 11:33:37.132415", "timestamp": 1634636017}
+{"address": 1, "param": 746, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010174602=?113\r", "time": "2021-10-19 11:33:37.154856", "timestamp": 1634636017}
+{"address": 1, "param": 746, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011174606NO_DEF197\r", "time": "2021-10-19 11:33:37.180652", "timestamp": 1634636017}
+{"address": 1, "param": 747, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010174702=?114\r", "time": "2021-10-19 11:33:37.203075", "timestamp": 1634636017}
+{"address": 1, "param": 747, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011174706NO_DEF198\r", "time": "2021-10-19 11:33:37.229128", "timestamp": 1634636017}
+{"address": 1, "param": 748, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010174802=?115\r", "time": "2021-10-19 11:33:37.251390", "timestamp": 1634636017}
+{"address": 1, "param": 748, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011174806NO_DEF199\r", "time": "2021-10-19 11:33:37.277528", "timestamp": 1634636017}
+{"address": 1, "param": 749, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010174902=?116\r", "time": "2021-10-19 11:33:37.299524", "timestamp": 1634636017}
+{"address": 1, "param": 749, "action": 1, "payloadRaw": "Press2Name    41      \u007f\u007f\u007f\u007f\u007f\u007f", "payloadLength": 28, "packetRaw": "0011174928Press2Name    41      \u007f\u007f\u007f\u007f\u007f\u007f096\r", "time": "2021-10-19 11:33:37.348448", "timestamp": 1634636017}
+{"address": 1, "param": 750, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010175002=?108\r", "time": "2021-10-19 11:33:37.379635", "timestamp": 1634636017}
+{"address": 1, "param": 750, "action": 1, "payloadRaw": "Pressure 2hPa :3000000000000", "payloadLength": 28, "packetRaw": "0011175028Pressure 2hPa :3000000000000138\r", "time": "2021-10-19 11:33:37.428592", "timestamp": 1634636017}
+{"address": 1, "param": 751, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010175102=?109\r", "time": "2021-10-19 11:33:37.462991", "timestamp": 1634636017}
+{"address": 1, "param": 751, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011175106NO_DEF193\r", "time": "2021-10-19 11:33:37.488954", "timestamp": 1634636017}
+{"address": 1, "param": 752, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010175202=?110\r", "time": "2021-10-19 11:33:37.511011", "timestamp": 1634636017}
+{"address": 1, "param": 752, "action": 1, "payloadRaw": "Press2Corr    23000010000800", "payloadLength": 28, "packetRaw": "0011175228Press2Corr    23000010000800254\r", "time": "2021-10-19 11:33:37.560107", "timestamp": 1634636017}
+{"address": 1, "param": 753, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010175302=?111\r", "time": "2021-10-19 11:33:37.594359", "timestamp": 1634636017}
+{"address": 1, "param": 753, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011175306NO_DEF195\r", "time": "2021-10-19 11:33:37.620132", "timestamp": 1634636017}
+{"address": 1, "param": 754, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010175402=?112\r", "time": "2021-10-19 11:33:37.642304", "timestamp": 1634636017}
+{"address": 1, "param": 754, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011175406NO_DEF196\r", "time": "2021-10-19 11:33:37.671297", "timestamp": 1634636017}
+{"address": 1, "param": 755, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010175502=?113\r", "time": "2021-10-19 11:33:37.690442", "timestamp": 1634636017}
+{"address": 1, "param": 755, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011175506NO_DEF197\r", "time": "2021-10-19 11:33:37.716435", "timestamp": 1634636017}
+{"address": 1, "param": 756, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010175602=?114\r", "time": "2021-10-19 11:33:37.738569", "timestamp": 1634636017}
+{"address": 1, "param": 756, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011175606NO_DEF198\r", "time": "2021-10-19 11:33:37.764583", "timestamp": 1634636017}
+{"address": 1, "param": 757, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010175702=?115\r", "time": "2021-10-19 11:33:37.786704", "timestamp": 1634636017}
+{"address": 1, "param": 757, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011175706NO_DEF199\r", "time": "2021-10-19 11:33:37.812643", "timestamp": 1634636017}
+{"address": 1, "param": 758, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010175802=?116\r", "time": "2021-10-19 11:33:37.835072", "timestamp": 1634636017}
+{"address": 1, "param": 758, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011175806NO_DEF200\r", "time": "2021-10-19 11:33:37.860824", "timestamp": 1634636017}
+{"address": 1, "param": 759, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010175902=?117\r", "time": "2021-10-19 11:33:37.883029", "timestamp": 1634636017}
+{"address": 1, "param": 759, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011175906NO_DEF201\r", "time": "2021-10-19 11:33:37.909160", "timestamp": 1634636017}
+{"address": 1, "param": 760, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010176002=?109\r", "time": "2021-10-19 11:33:37.931227", "timestamp": 1634636017}
+{"address": 1, "param": 760, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011176006NO_DEF193\r", "time": "2021-10-19 11:33:37.957449", "timestamp": 1634636017}
+{"address": 1, "param": 761, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010176102=?110\r", "time": "2021-10-19 11:33:37.979407", "timestamp": 1634636017}
+{"address": 1, "param": 761, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011176106NO_DEF194\r", "time": "2021-10-19 11:33:38.005303", "timestamp": 1634636018}
+{"address": 1, "param": 762, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010176202=?111\r", "time": "2021-10-19 11:33:38.027363", "timestamp": 1634636018}
+{"address": 1, "param": 762, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011176206NO_DEF195\r", "time": "2021-10-19 11:33:38.096554", "timestamp": 1634636018}
+{"address": 1, "param": 763, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010176302=?112\r", "time": "2021-10-19 11:33:38.098171", "timestamp": 1634636018}
+{"address": 1, "param": 763, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011176306NO_DEF196\r", "time": "2021-10-19 11:33:38.101386", "timestamp": 1634636018}
+{"address": 1, "param": 764, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010176402=?113\r", "time": "2021-10-19 11:33:38.123686", "timestamp": 1634636018}
+{"address": 1, "param": 764, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011176406NO_DEF197\r", "time": "2021-10-19 11:33:38.149821", "timestamp": 1634636018}
+{"address": 1, "param": 765, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010176502=?114\r", "time": "2021-10-19 11:33:38.172047", "timestamp": 1634636018}
+{"address": 1, "param": 765, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011176506NO_DEF198\r", "time": "2021-10-19 11:33:38.197683", "timestamp": 1634636018}
+{"address": 1, "param": 766, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010176602=?115\r", "time": "2021-10-19 11:33:38.220004", "timestamp": 1634636018}
+{"address": 1, "param": 766, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011176606NO_DEF199\r", "time": "2021-10-19 11:33:38.246487", "timestamp": 1634636018}
+{"address": 1, "param": 767, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010176702=?116\r", "time": "2021-10-19 11:33:38.290547", "timestamp": 1634636018}
+{"address": 1, "param": 767, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011176706NO_DEF200\r", "time": "2021-10-19 11:33:38.316187", "timestamp": 1634636018}
+{"address": 1, "param": 768, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010176802=?117\r", "time": "2021-10-19 11:33:38.338437", "timestamp": 1634636018}
+{"address": 1, "param": 768, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011176806NO_DEF201\r", "time": "2021-10-19 11:33:38.364386", "timestamp": 1634636018}
+{"address": 1, "param": 769, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010176902=?118\r", "time": "2021-10-19 11:33:38.386463", "timestamp": 1634636018}
+{"address": 1, "param": 769, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011176906NO_DEF202\r", "time": "2021-10-19 11:33:38.412383", "timestamp": 1634636018}
+{"address": 1, "param": 770, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010177002=?110\r", "time": "2021-10-19 11:33:38.434794", "timestamp": 1634636018}
+{"address": 1, "param": 770, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011177006NO_DEF194\r", "time": "2021-10-19 11:33:38.460626", "timestamp": 1634636018}
+{"address": 1, "param": 771, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010177102=?111\r", "time": "2021-10-19 11:33:38.482890", "timestamp": 1634636018}
+{"address": 1, "param": 771, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011177106NO_DEF195\r", "time": "2021-10-19 11:33:38.508900", "timestamp": 1634636018}
+{"address": 1, "param": 772, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010177202=?112\r", "time": "2021-10-19 11:33:38.531234", "timestamp": 1634636018}
+{"address": 1, "param": 772, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011177206NO_DEF196\r", "time": "2021-10-19 11:33:38.557111", "timestamp": 1634636018}
+{"address": 1, "param": 773, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010177302=?113\r", "time": "2021-10-19 11:33:38.579460", "timestamp": 1634636018}
+{"address": 1, "param": 773, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011177306NO_DEF197\r", "time": "2021-10-19 11:33:38.605591", "timestamp": 1634636018}
+{"address": 1, "param": 774, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010177402=?114\r", "time": "2021-10-19 11:33:38.627678", "timestamp": 1634636018}
+{"address": 1, "param": 774, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011177406NO_DEF198\r", "time": "2021-10-19 11:33:38.653642", "timestamp": 1634636018}
+{"address": 1, "param": 775, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010177502=?115\r", "time": "2021-10-19 11:33:38.675905", "timestamp": 1634636018}
+{"address": 1, "param": 775, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011177506NO_DEF199\r", "time": "2021-10-19 11:33:38.702042", "timestamp": 1634636018}
+{"address": 1, "param": 776, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010177602=?116\r", "time": "2021-10-19 11:33:38.724136", "timestamp": 1634636018}
+{"address": 1, "param": 776, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011177606NO_DEF200\r", "time": "2021-10-19 11:33:38.750205", "timestamp": 1634636018}
+{"address": 1, "param": 777, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010177702=?117\r", "time": "2021-10-19 11:33:38.772187", "timestamp": 1634636018}
+{"address": 1, "param": 777, "action": 1, "payloadRaw": "NomSpdConfHz  13000000001500", "payloadLength": 28, "packetRaw": "0011177728NomSpdConfHz  13000000001500133\r", "time": "2021-10-19 11:33:38.821160", "timestamp": 1634636018}
+{"address": 1, "param": 778, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010177802=?118\r", "time": "2021-10-19 11:33:38.855007", "timestamp": 1634636018}
+{"address": 1, "param": 778, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011177806NO_DEF202\r", "time": "2021-10-19 11:33:38.880929", "timestamp": 1634636018}
+{"address": 1, "param": 779, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010177902=?119\r", "time": "2021-10-19 11:33:38.903182", "timestamp": 1634636018}
+{"address": 1, "param": 779, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011177906NO_DEF203\r", "time": "2021-10-19 11:33:38.929230", "timestamp": 1634636018}
+{"address": 1, "param": 780, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010178002=?111\r", "time": "2021-10-19 11:33:38.952176", "timestamp": 1634636018}
+{"address": 1, "param": 780, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011178006NO_DEF195\r", "time": "2021-10-19 11:33:38.977541", "timestamp": 1634636018}
+{"address": 1, "param": 781, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010178102=?112\r", "time": "2021-10-19 11:33:39.000254", "timestamp": 1634636019}
+{"address": 1, "param": 781, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011178106NO_DEF196\r", "time": "2021-10-19 11:33:39.025678", "timestamp": 1634636019}
+{"address": 1, "param": 782, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010178202=?113\r", "time": "2021-10-19 11:33:39.047974", "timestamp": 1634636019}
+{"address": 1, "param": 782, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011178206NO_DEF197\r", "time": "2021-10-19 11:33:39.073919", "timestamp": 1634636019}
+{"address": 1, "param": 783, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010178302=?114\r", "time": "2021-10-19 11:33:39.096239", "timestamp": 1634636019}
+{"address": 1, "param": 783, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011178306NO_DEF198\r", "time": "2021-10-19 11:33:39.122201", "timestamp": 1634636019}
+{"address": 1, "param": 784, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010178402=?115\r", "time": "2021-10-19 11:33:39.144403", "timestamp": 1634636019}
+{"address": 1, "param": 784, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011178406NO_DEF199\r", "time": "2021-10-19 11:33:39.170536", "timestamp": 1634636019}
+{"address": 1, "param": 785, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010178502=?116\r", "time": "2021-10-19 11:33:39.193313", "timestamp": 1634636019}
+{"address": 1, "param": 785, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011178506NO_DEF200\r", "time": "2021-10-19 11:33:39.218987", "timestamp": 1634636019}
+{"address": 1, "param": 786, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010178602=?117\r", "time": "2021-10-19 11:33:39.241275", "timestamp": 1634636019}
+{"address": 1, "param": 786, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011178606NO_DEF201\r", "time": "2021-10-19 11:33:39.267688", "timestamp": 1634636019}
+{"address": 1, "param": 787, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010178702=?118\r", "time": "2021-10-19 11:33:39.289397", "timestamp": 1634636019}
+{"address": 1, "param": 787, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011178706NO_DEF202\r", "time": "2021-10-19 11:33:39.315537", "timestamp": 1634636019}
+{"address": 1, "param": 788, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010178802=?119\r", "time": "2021-10-19 11:33:39.337508", "timestamp": 1634636019}
+{"address": 1, "param": 788, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011178806NO_DEF203\r", "time": "2021-10-19 11:33:39.363345", "timestamp": 1634636019}
+{"address": 1, "param": 789, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010178902=?120\r", "time": "2021-10-19 11:33:39.385792", "timestamp": 1634636019}
+{"address": 1, "param": 789, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011178906NO_DEF204\r", "time": "2021-10-19 11:33:39.411505", "timestamp": 1634636019}
+{"address": 1, "param": 790, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010179002=?112\r", "time": "2021-10-19 11:33:39.434002", "timestamp": 1634636019}
+{"address": 1, "param": 790, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011179006NO_DEF196\r", "time": "2021-10-19 11:33:39.459784", "timestamp": 1634636019}
+{"address": 1, "param": 791, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010179102=?113\r", "time": "2021-10-19 11:33:39.482339", "timestamp": 1634636019}
+{"address": 1, "param": 791, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011179106NO_DEF197\r", "time": "2021-10-19 11:33:39.508440", "timestamp": 1634636019}
+{"address": 1, "param": 792, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010179202=?114\r", "time": "2021-10-19 11:33:39.530457", "timestamp": 1634636019}
+{"address": 1, "param": 792, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011179206NO_DEF198\r", "time": "2021-10-19 11:33:39.556465", "timestamp": 1634636019}
+{"address": 1, "param": 793, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010179302=?115\r", "time": "2021-10-19 11:33:39.578653", "timestamp": 1634636019}
+{"address": 1, "param": 793, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011179306NO_DEF199\r", "time": "2021-10-19 11:33:39.604754", "timestamp": 1634636019}
+{"address": 1, "param": 794, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010179402=?116\r", "time": "2021-10-19 11:33:39.626952", "timestamp": 1634636019}
+{"address": 1, "param": 794, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011179406NO_DEF200\r", "time": "2021-10-19 11:33:39.652851", "timestamp": 1634636019}
+{"address": 1, "param": 795, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010179502=?117\r", "time": "2021-10-19 11:33:39.678310", "timestamp": 1634636019}
+{"address": 1, "param": 795, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011179506NO_DEF201\r", "time": "2021-10-19 11:33:39.704502", "timestamp": 1634636019}
+{"address": 1, "param": 796, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010179602=?118\r", "time": "2021-10-19 11:33:39.730037", "timestamp": 1634636019}
+{"address": 1, "param": 796, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0011179606NO_DEF202\r", "time": "2021-10-19 11:33:39.755991", "timestamp": 1634636019}
+{"address": 1, "param": 797, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010179702=?119\r", "time": "2021-10-19 11:33:39.779188", "timestamp": 1634636019}
+{"address": 1, "param": 797, "action": 1, "payloadRaw": "RS485Adr      13000001000255", "payloadLength": 28, "packetRaw": "0011179728RS485Adr      13000001000255210\r", "time": "2021-10-19 11:33:39.827302", "timestamp": 1634636019}
+{"address": 1, "param": 798, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010179802=?120\r", "time": "2021-10-19 11:33:39.861009", "timestamp": 1634636019}
+{"address": 1, "param": 798, "action": 1, "payloadRaw": "RsOpHrsPmp    06111111111111", "payloadLength": 28, "packetRaw": "0011179828RsOpHrsPmp    06111111111111021\r", "time": "2021-10-19 11:33:39.910173", "timestamp": 1634636019}
+{"address": 1, "param": 799, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0010179902=?121\r", "time": "2021-10-19 11:33:39.940363", "timestamp": 1634636019}
+{"address": 1, "param": 799, "action": 1, "payloadRaw": "RsCycleCnt    06111111111111", "payloadLength": 28, "packetRaw": "0011179928RsCycleCnt    06111111111111018\r", "time": "2021-10-19 11:33:39.989217", "timestamp": 1634636019}
+{"address": 2, "param": 0, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020100002=?097\r", "time": "2021-10-19 11:33:40.042638", "timestamp": 1634636020}
+{"address": 2, "param": 0, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021100006NO_DEF181\r", "time": "2021-10-19 11:33:40.068747", "timestamp": 1634636020}
+{"address": 2, "param": 1, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020100102=?098\r", "time": "2021-10-19 11:33:40.090841", "timestamp": 1634636020}
+{"address": 2, "param": 1, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021100106NO_DEF182\r", "time": "2021-10-19 11:33:40.116673", "timestamp": 1634636020}
+{"address": 2, "param": 2, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020100202=?099\r", "time": "2021-10-19 11:33:40.138790", "timestamp": 1634636020}
+{"address": 2, "param": 2, "action": 1, "payloadRaw": "Standby       03000000111111", "payloadLength": 28, "packetRaw": "0021100228Standby       03000000111111078\r", "time": "2021-10-19 11:33:40.187674", "timestamp": 1634636020}
+{"address": 2, "param": 3, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020100302=?100\r", "time": "2021-10-19 11:33:40.217024", "timestamp": 1634636020}
+{"address": 2, "param": 3, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021100306NO_DEF184\r", "time": "2021-10-19 11:33:40.242743", "timestamp": 1634636020}
+{"address": 2, "param": 4, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020100402=?101\r", "time": "2021-10-19 11:33:40.265205", "timestamp": 1634636020}
+{"address": 2, "param": 4, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021100406NO_DEF185\r", "time": "2021-10-19 11:33:40.291081", "timestamp": 1634636020}
+{"address": 2, "param": 5, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020100502=?102\r", "time": "2021-10-19 11:33:40.313047", "timestamp": 1634636020}
+{"address": 2, "param": 5, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021100506NO_DEF186\r", "time": "2021-10-19 11:33:40.339271", "timestamp": 1634636020}
+{"address": 2, "param": 6, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020100602=?103\r", "time": "2021-10-19 11:33:40.361104", "timestamp": 1634636020}
+{"address": 2, "param": 6, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021100606NO_DEF187\r", "time": "2021-10-19 11:33:40.387254", "timestamp": 1634636020}
+{"address": 2, "param": 7, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020100702=?104\r", "time": "2021-10-19 11:33:40.414244", "timestamp": 1634636020}
+{"address": 2, "param": 7, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021100706NO_DEF188\r", "time": "2021-10-19 11:33:40.435303", "timestamp": 1634636020}
+{"address": 2, "param": 8, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020100802=?105\r", "time": "2021-10-19 11:33:40.457648", "timestamp": 1634636020}
+{"address": 2, "param": 8, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021100806NO_DEF189\r", "time": "2021-10-19 11:33:40.483507", "timestamp": 1634636020}
+{"address": 2, "param": 9, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020100902=?106\r", "time": "2021-10-19 11:33:40.505681", "timestamp": 1634636020}
+{"address": 2, "param": 9, "action": 1, "payloadRaw": "ErrorAckn     02111111111111", "payloadLength": 28, "packetRaw": "0021100928ErrorAckn     02111111111111204\r", "time": "2021-10-19 11:33:40.554609", "timestamp": 1634636020}
+{"address": 2, "param": 10, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020101002=?098\r", "time": "2021-10-19 11:33:40.584370", "timestamp": 1634636020}
+{"address": 2, "param": 10, "action": 1, "payloadRaw": "PumpgStatn    03000000111111", "payloadLength": 28, "packetRaw": "0021101028PumpgStatn    03000000111111043\r", "time": "2021-10-19 11:33:40.633230", "timestamp": 1634636020}
+{"address": 2, "param": 11, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020101102=?099\r", "time": "2021-10-19 11:33:40.663124", "timestamp": 1634636020}
+{"address": 2, "param": 11, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021101106NO_DEF183\r", "time": "2021-10-19 11:33:40.688968", "timestamp": 1634636020}
+{"address": 2, "param": 12, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020101202=?100\r", "time": "2021-10-19 11:33:40.711187", "timestamp": 1634636020}
+{"address": 2, "param": 12, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021101206NO_DEF184\r", "time": "2021-10-19 11:33:40.737195", "timestamp": 1634636020}
+{"address": 2, "param": 13, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020101302=?101\r", "time": "2021-10-19 11:33:40.759492", "timestamp": 1634636020}
+{"address": 2, "param": 13, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021101306NO_DEF185\r", "time": "2021-10-19 11:33:40.785435", "timestamp": 1634636020}
+{"address": 2, "param": 14, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020101402=?102\r", "time": "2021-10-19 11:33:40.812220", "timestamp": 1634636020}
+{"address": 2, "param": 14, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021101406NO_DEF186\r", "time": "2021-10-19 11:33:40.833692", "timestamp": 1634636020}
+{"address": 2, "param": 15, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020101502=?103\r", "time": "2021-10-19 11:33:40.856102", "timestamp": 1634636020}
+{"address": 2, "param": 15, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021101506NO_DEF187\r", "time": "2021-10-19 11:33:40.881992", "timestamp": 1634636020}
+{"address": 2, "param": 16, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020101602=?104\r", "time": "2021-10-19 11:33:40.904215", "timestamp": 1634636020}
+{"address": 2, "param": 16, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021101606NO_DEF188\r", "time": "2021-10-19 11:33:40.930365", "timestamp": 1634636020}
+{"address": 2, "param": 17, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020101702=?105\r", "time": "2021-10-19 11:33:40.952410", "timestamp": 1634636020}
+{"address": 2, "param": 17, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021101706NO_DEF189\r", "time": "2021-10-19 11:33:40.978653", "timestamp": 1634636020}
+{"address": 2, "param": 18, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020101802=?106\r", "time": "2021-10-19 11:33:41.000572", "timestamp": 1634636021}
+{"address": 2, "param": 18, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021101806NO_DEF190\r", "time": "2021-10-19 11:33:41.026622", "timestamp": 1634636021}
+{"address": 2, "param": 19, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020101902=?107\r", "time": "2021-10-19 11:33:41.048904", "timestamp": 1634636021}
+{"address": 2, "param": 19, "action": 1, "payloadRaw": "Cfg DO2       73000000000020", "payloadLength": 28, "packetRaw": "0021101928Cfg DO2       73000000000020121\r", "time": "2021-10-19 11:33:41.098073", "timestamp": 1634636021}
+{"address": 2, "param": 20, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020102002=?099\r", "time": "2021-10-19 11:33:41.129515", "timestamp": 1634636021}
+{"address": 2, "param": 20, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021102006NO_DEF183\r", "time": "2021-10-19 11:33:41.156826", "timestamp": 1634636021}
+{"address": 2, "param": 21, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020102102=?100\r", "time": "2021-10-19 11:33:41.177343", "timestamp": 1634636021}
+{"address": 2, "param": 21, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021102106NO_DEF184\r", "time": "2021-10-19 11:33:41.203500", "timestamp": 1634636021}
+{"address": 2, "param": 22, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020102202=?101\r", "time": "2021-10-19 11:33:41.225532", "timestamp": 1634636021}
+{"address": 2, "param": 22, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021102206NO_DEF185\r", "time": "2021-10-19 11:33:41.251671", "timestamp": 1634636021}
+{"address": 2, "param": 23, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020102302=?102\r", "time": "2021-10-19 11:33:41.273689", "timestamp": 1634636021}
+{"address": 2, "param": 23, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021102306NO_DEF186\r", "time": "2021-10-19 11:33:41.299739", "timestamp": 1634636021}
+{"address": 2, "param": 24, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020102402=?103\r", "time": "2021-10-19 11:33:41.322187", "timestamp": 1634636021}
+{"address": 2, "param": 24, "action": 1, "payloadRaw": "Cfg DO1       73000000000020", "payloadLength": 28, "packetRaw": "0021102428Cfg DO1       73000000000020116\r", "time": "2021-10-19 11:33:41.371115", "timestamp": 1634636021}
+{"address": 2, "param": 25, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020102502=?104\r", "time": "2021-10-19 11:33:41.402378", "timestamp": 1634636021}
+{"address": 2, "param": 25, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021102506NO_DEF188\r", "time": "2021-10-19 11:33:41.428671", "timestamp": 1634636021}
+{"address": 2, "param": 26, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020102602=?105\r", "time": "2021-10-19 11:33:41.451928", "timestamp": 1634636021}
+{"address": 2, "param": 26, "action": 1, "payloadRaw": "SpdSetMode    73000000000001", "payloadLength": 28, "packetRaw": "0021102628SpdSetMode    73000000000001249\r", "time": "2021-10-19 11:33:41.499235", "timestamp": 1634636021}
+{"address": 2, "param": 27, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020102702=?106\r", "time": "2021-10-19 11:33:41.530578", "timestamp": 1634636021}
+{"address": 2, "param": 27, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021102706NO_DEF190\r", "time": "2021-10-19 11:33:41.556443", "timestamp": 1634636021}
+{"address": 2, "param": 28, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020102802=?107\r", "time": "2021-10-19 11:33:41.579162", "timestamp": 1634636021}
+{"address": 2, "param": 28, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021102806NO_DEF191\r", "time": "2021-10-19 11:33:41.605058", "timestamp": 1634636021}
+{"address": 2, "param": 29, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020102902=?108\r", "time": "2021-10-19 11:33:41.627609", "timestamp": 1634636021}
+{"address": 2, "param": 29, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021102906NO_DEF192\r", "time": "2021-10-19 11:33:41.653289", "timestamp": 1634636021}
+{"address": 2, "param": 30, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020103002=?100\r", "time": "2021-10-19 11:33:41.675322", "timestamp": 1634636021}
+{"address": 2, "param": 30, "action": 1, "payloadRaw": "ValveMode     73000000000002", "payloadLength": 28, "packetRaw": "0021103028ValveMode     73000000000002192\r", "time": "2021-10-19 11:33:41.724508", "timestamp": 1634636021}
+{"address": 2, "param": 31, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020103102=?101\r", "time": "2021-10-19 11:33:41.755824", "timestamp": 1634636021}
+{"address": 2, "param": 31, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021103106NO_DEF185\r", "time": "2021-10-19 11:33:41.782069", "timestamp": 1634636021}
+{"address": 2, "param": 32, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020103202=?102\r", "time": "2021-10-19 11:33:41.803883", "timestamp": 1634636021}
+{"address": 2, "param": 32, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021103206NO_DEF186\r", "time": "2021-10-19 11:33:41.829544", "timestamp": 1634636021}
+{"address": 2, "param": 33, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020103302=?103\r", "time": "2021-10-19 11:33:41.874991", "timestamp": 1634636021}
+{"address": 2, "param": 33, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021103306NO_DEF187\r", "time": "2021-10-19 11:33:41.900956", "timestamp": 1634636021}
+{"address": 2, "param": 34, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020103402=?104\r", "time": "2021-10-19 11:33:41.923384", "timestamp": 1634636021}
+{"address": 2, "param": 34, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021103406NO_DEF188\r", "time": "2021-10-19 11:33:41.949180", "timestamp": 1634636021}
+{"address": 2, "param": 35, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020103502=?105\r", "time": "2021-10-19 11:33:41.971719", "timestamp": 1634636021}
+{"address": 2, "param": 35, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021103506NO_DEF189\r", "time": "2021-10-19 11:33:42.001159", "timestamp": 1634636022}
+{"address": 2, "param": 36, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020103602=?106\r", "time": "2021-10-19 11:33:42.019757", "timestamp": 1634636022}
+{"address": 2, "param": 36, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021103606NO_DEF190\r", "time": "2021-10-19 11:33:42.045672", "timestamp": 1634636022}
+{"address": 2, "param": 37, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020103702=?107\r", "time": "2021-10-19 11:33:42.068091", "timestamp": 1634636022}
+{"address": 2, "param": 37, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021103706NO_DEF191\r", "time": "2021-10-19 11:33:42.094231", "timestamp": 1634636022}
+{"address": 2, "param": 38, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020103802=?108\r", "time": "2021-10-19 11:33:42.116226", "timestamp": 1634636022}
+{"address": 2, "param": 38, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021103806NO_DEF192\r", "time": "2021-10-19 11:33:42.142472", "timestamp": 1634636022}
+{"address": 2, "param": 39, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020103902=?109\r", "time": "2021-10-19 11:33:42.164528", "timestamp": 1634636022}
+{"address": 2, "param": 39, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021103906NO_DEF193\r", "time": "2021-10-19 11:33:42.190374", "timestamp": 1634636022}
+{"address": 2, "param": 40, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020104002=?101\r", "time": "2021-10-19 11:33:42.212415", "timestamp": 1634636022}
+{"address": 2, "param": 40, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021104006NO_DEF185\r", "time": "2021-10-19 11:33:42.238559", "timestamp": 1634636022}
+{"address": 2, "param": 41, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020104102=?102\r", "time": "2021-10-19 11:33:42.260542", "timestamp": 1634636022}
+{"address": 2, "param": 41, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021104106NO_DEF186\r", "time": "2021-10-19 11:33:42.286622", "timestamp": 1634636022}
+{"address": 2, "param": 42, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020104202=?103\r", "time": "2021-10-19 11:33:42.308782", "timestamp": 1634636022}
+{"address": 2, "param": 42, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021104206NO_DEF187\r", "time": "2021-10-19 11:33:42.334694", "timestamp": 1634636022}
+{"address": 2, "param": 43, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020104302=?104\r", "time": "2021-10-19 11:33:42.357358", "timestamp": 1634636022}
+{"address": 2, "param": 43, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021104306NO_DEF188\r", "time": "2021-10-19 11:33:42.382935", "timestamp": 1634636022}
+{"address": 2, "param": 44, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020104402=?105\r", "time": "2021-10-19 11:33:42.405154", "timestamp": 1634636022}
+{"address": 2, "param": 44, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021104406NO_DEF189\r", "time": "2021-10-19 11:33:42.431261", "timestamp": 1634636022}
+{"address": 2, "param": 45, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020104502=?106\r", "time": "2021-10-19 11:33:42.453561", "timestamp": 1634636022}
+{"address": 2, "param": 45, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021104506NO_DEF190\r", "time": "2021-10-19 11:33:42.479578", "timestamp": 1634636022}
+{"address": 2, "param": 46, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020104602=?107\r", "time": "2021-10-19 11:33:42.501810", "timestamp": 1634636022}
+{"address": 2, "param": 46, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021104606NO_DEF191\r", "time": "2021-10-19 11:33:42.527905", "timestamp": 1634636022}
+{"address": 2, "param": 47, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020104702=?108\r", "time": "2021-10-19 11:33:42.550137", "timestamp": 1634636022}
+{"address": 2, "param": 47, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021104706NO_DEF192\r", "time": "2021-10-19 11:33:42.575915", "timestamp": 1634636022}
+{"address": 2, "param": 48, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020104802=?109\r", "time": "2021-10-19 11:33:42.598140", "timestamp": 1634636022}
+{"address": 2, "param": 48, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021104806NO_DEF193\r", "time": "2021-10-19 11:33:42.624180", "timestamp": 1634636022}
+{"address": 2, "param": 49, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020104902=?110\r", "time": "2021-10-19 11:33:42.646084", "timestamp": 1634636022}
+{"address": 2, "param": 49, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021104906NO_DEF194\r", "time": "2021-10-19 11:33:42.672184", "timestamp": 1634636022}
+{"address": 2, "param": 50, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020105002=?102\r", "time": "2021-10-19 11:33:42.716226", "timestamp": 1634636022}
+{"address": 2, "param": 50, "action": 1, "payloadRaw": "PurgeGas      03000000111111", "payloadLength": 28, "packetRaw": "0021105028PurgeGas      03000000111111122\r", "time": "2021-10-19 11:33:42.743275", "timestamp": 1634636022}
+{"address": 2, "param": 51, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020105102=?103\r", "time": "2021-10-19 11:33:42.773953", "timestamp": 1634636022}
+{"address": 2, "param": 51, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021105106NO_DEF187\r", "time": "2021-10-19 11:33:42.799540", "timestamp": 1634636022}
+{"address": 2, "param": 52, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020105202=?104\r", "time": "2021-10-19 11:33:42.822306", "timestamp": 1634636022}
+{"address": 2, "param": 52, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021105206NO_DEF188\r", "time": "2021-10-19 11:33:42.847948", "timestamp": 1634636022}
+{"address": 2, "param": 53, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020105302=?105\r", "time": "2021-10-19 11:33:42.871169", "timestamp": 1634636022}
+{"address": 2, "param": 53, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021105306NO_DEF189\r", "time": "2021-10-19 11:33:42.896297", "timestamp": 1634636022}
+{"address": 2, "param": 54, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020105402=?106\r", "time": "2021-10-19 11:33:42.918457", "timestamp": 1634636022}
+{"address": 2, "param": 54, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021105406NO_DEF190\r", "time": "2021-10-19 11:33:42.944226", "timestamp": 1634636022}
+{"address": 2, "param": 55, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020105502=?107\r", "time": "2021-10-19 11:33:42.966795", "timestamp": 1634636022}
+{"address": 2, "param": 55, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021105506NO_DEF191\r", "time": "2021-10-19 11:33:42.992447", "timestamp": 1634636022}
+{"address": 2, "param": 56, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020105602=?108\r", "time": "2021-10-19 11:33:43.014936", "timestamp": 1634636023}
+{"address": 2, "param": 56, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021105606NO_DEF192\r", "time": "2021-10-19 11:33:43.040522", "timestamp": 1634636023}
+{"address": 2, "param": 57, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020105702=?109\r", "time": "2021-10-19 11:33:43.062810", "timestamp": 1634636023}
+{"address": 2, "param": 57, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021105706NO_DEF193\r", "time": "2021-10-19 11:33:43.089269", "timestamp": 1634636023}
+{"address": 2, "param": 58, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020105802=?110\r", "time": "2021-10-19 11:33:43.111050", "timestamp": 1634636023}
+{"address": 2, "param": 58, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021105806NO_DEF194\r", "time": "2021-10-19 11:33:43.137067", "timestamp": 1634636023}
+{"address": 2, "param": 59, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020105902=?111\r", "time": "2021-10-19 11:33:43.159681", "timestamp": 1634636023}
+{"address": 2, "param": 59, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021105906NO_DEF195\r", "time": "2021-10-19 11:33:43.185362", "timestamp": 1634636023}
+{"address": 2, "param": 60, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020106002=?103\r", "time": "2021-10-19 11:33:43.207621", "timestamp": 1634636023}
+{"address": 2, "param": 60, "action": 1, "payloadRaw": "CtrlViaInt    73000000000999", "payloadLength": 28, "packetRaw": "0021106028CtrlViaInt    73000000000999025\r", "time": "2021-10-19 11:33:43.256475", "timestamp": 1634636023}
+{"address": 2, "param": 61, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020106102=?104\r", "time": "2021-10-19 11:33:43.288157", "timestamp": 1634636023}
+{"address": 2, "param": 61, "action": 1, "payloadRaw": "IntSelLckd    03000000111111", "payloadLength": 28, "packetRaw": "0021106128IntSelLckd    03000000111111235\r", "time": "2021-10-19 11:33:43.336822", "timestamp": 1634636023}
+{"address": 2, "param": 62, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020106202=?105\r", "time": "2021-10-19 11:33:43.367325", "timestamp": 1634636023}
+{"address": 2, "param": 62, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021106206NO_DEF189\r", "time": "2021-10-19 11:33:43.393102", "timestamp": 1634636023}
+{"address": 2, "param": 63, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020106302=?106\r", "time": "2021-10-19 11:33:43.415428", "timestamp": 1634636023}
+{"address": 2, "param": 63, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021106306NO_DEF190\r", "time": "2021-10-19 11:33:43.441280", "timestamp": 1634636023}
+{"address": 2, "param": 64, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020106402=?107\r", "time": "2021-10-19 11:33:43.463659", "timestamp": 1634636023}
+{"address": 2, "param": 64, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021106406NO_DEF191\r", "time": "2021-10-19 11:33:43.489480", "timestamp": 1634636023}
+{"address": 2, "param": 65, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020106502=?108\r", "time": "2021-10-19 11:33:43.511948", "timestamp": 1634636023}
+{"address": 2, "param": 65, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021106506NO_DEF192\r", "time": "2021-10-19 11:33:43.537806", "timestamp": 1634636023}
+{"address": 2, "param": 66, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020106602=?109\r", "time": "2021-10-19 11:33:43.560007", "timestamp": 1634636023}
+{"address": 2, "param": 66, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021106606NO_DEF193\r", "time": "2021-10-19 11:33:43.586045", "timestamp": 1634636023}
+{"address": 2, "param": 67, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020106702=?110\r", "time": "2021-10-19 11:33:43.631511", "timestamp": 1634636023}
+{"address": 2, "param": 67, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021106706NO_DEF194\r", "time": "2021-10-19 11:33:43.657362", "timestamp": 1634636023}
+{"address": 2, "param": 68, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020106802=?111\r", "time": "2021-10-19 11:33:43.679486", "timestamp": 1634636023}
+{"address": 2, "param": 68, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021106806NO_DEF195\r", "time": "2021-10-19 11:33:43.705493", "timestamp": 1634636023}
+{"address": 2, "param": 69, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020106902=?112\r", "time": "2021-10-19 11:33:43.727492", "timestamp": 1634636023}
+{"address": 2, "param": 69, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021106906NO_DEF196\r", "time": "2021-10-19 11:33:43.753465", "timestamp": 1634636023}
+{"address": 2, "param": 70, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020107002=?104\r", "time": "2021-10-19 11:33:43.775724", "timestamp": 1634636023}
+{"address": 2, "param": 70, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021107006NO_DEF188\r", "time": "2021-10-19 11:33:43.801734", "timestamp": 1634636023}
+{"address": 2, "param": 71, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020107102=?105\r", "time": "2021-10-19 11:33:43.824474", "timestamp": 1634636023}
+{"address": 2, "param": 71, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021107106NO_DEF189\r", "time": "2021-10-19 11:33:43.850045", "timestamp": 1634636023}
+{"address": 2, "param": 72, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020107202=?106\r", "time": "2021-10-19 11:33:43.872214", "timestamp": 1634636023}
+{"address": 2, "param": 72, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021107206NO_DEF190\r", "time": "2021-10-19 11:33:43.898604", "timestamp": 1634636023}
+{"address": 2, "param": 73, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020107302=?107\r", "time": "2021-10-19 11:33:43.920774", "timestamp": 1634636023}
+{"address": 2, "param": 73, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021107306NO_DEF191\r", "time": "2021-10-19 11:33:43.946412", "timestamp": 1634636023}
+{"address": 2, "param": 74, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020107402=?108\r", "time": "2021-10-19 11:33:43.968842", "timestamp": 1634636023}
+{"address": 2, "param": 74, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021107406NO_DEF192\r", "time": "2021-10-19 11:33:43.994901", "timestamp": 1634636023}
+{"address": 2, "param": 75, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020107502=?109\r", "time": "2021-10-19 11:33:44.017143", "timestamp": 1634636024}
+{"address": 2, "param": 75, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021107506NO_DEF193\r", "time": "2021-10-19 11:33:44.043303", "timestamp": 1634636024}
+{"address": 2, "param": 76, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020107602=?110\r", "time": "2021-10-19 11:33:44.065398", "timestamp": 1634636024}
+{"address": 2, "param": 76, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021107606NO_DEF194\r", "time": "2021-10-19 11:33:44.091191", "timestamp": 1634636024}
+{"address": 2, "param": 77, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020107702=?111\r", "time": "2021-10-19 11:33:44.113298", "timestamp": 1634636024}
+{"address": 2, "param": 77, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021107706NO_DEF195\r", "time": "2021-10-19 11:33:44.139335", "timestamp": 1634636024}
+{"address": 2, "param": 78, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020107802=?112\r", "time": "2021-10-19 11:33:44.161472", "timestamp": 1634636024}
+{"address": 2, "param": 78, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021107806NO_DEF196\r", "time": "2021-10-19 11:33:44.187619", "timestamp": 1634636024}
+{"address": 2, "param": 79, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020107902=?113\r", "time": "2021-10-19 11:33:44.209552", "timestamp": 1634636024}
+{"address": 2, "param": 79, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021107906NO_DEF197\r", "time": "2021-10-19 11:33:44.235569", "timestamp": 1634636024}
+{"address": 2, "param": 80, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020108002=?105\r", "time": "2021-10-19 11:33:44.258174", "timestamp": 1634636024}
+{"address": 2, "param": 80, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021108006NO_DEF189\r", "time": "2021-10-19 11:33:44.283884", "timestamp": 1634636024}
+{"address": 2, "param": 81, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020108102=?106\r", "time": "2021-10-19 11:33:44.306090", "timestamp": 1634636024}
+{"address": 2, "param": 81, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021108106NO_DEF190\r", "time": "2021-10-19 11:33:44.332072", "timestamp": 1634636024}
+{"address": 2, "param": 82, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020108202=?107\r", "time": "2021-10-19 11:33:44.354493", "timestamp": 1634636024}
+{"address": 2, "param": 82, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021108206NO_DEF191\r", "time": "2021-10-19 11:33:44.380598", "timestamp": 1634636024}
+{"address": 2, "param": 83, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020108302=?108\r", "time": "2021-10-19 11:33:44.402624", "timestamp": 1634636024}
+{"address": 2, "param": 83, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021108306NO_DEF192\r", "time": "2021-10-19 11:33:44.428591", "timestamp": 1634636024}
+{"address": 2, "param": 84, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020108402=?109\r", "time": "2021-10-19 11:33:44.451109", "timestamp": 1634636024}
+{"address": 2, "param": 84, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021108406NO_DEF193\r", "time": "2021-10-19 11:33:44.476816", "timestamp": 1634636024}
+{"address": 2, "param": 85, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020108502=?110\r", "time": "2021-10-19 11:33:44.499248", "timestamp": 1634636024}
+{"address": 2, "param": 85, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021108506NO_DEF194\r", "time": "2021-10-19 11:33:44.525232", "timestamp": 1634636024}
+{"address": 2, "param": 86, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020108602=?111\r", "time": "2021-10-19 11:33:44.547275", "timestamp": 1634636024}
+{"address": 2, "param": 86, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021108606NO_DEF195\r", "time": "2021-10-19 11:33:44.573124", "timestamp": 1634636024}
+{"address": 2, "param": 87, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020108702=?112\r", "time": "2021-10-19 11:33:44.595100", "timestamp": 1634636024}
+{"address": 2, "param": 87, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021108706NO_DEF196\r", "time": "2021-10-19 11:33:44.621120", "timestamp": 1634636024}
+{"address": 2, "param": 88, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020108802=?113\r", "time": "2021-10-19 11:33:44.643435", "timestamp": 1634636024}
+{"address": 2, "param": 88, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021108806NO_DEF197\r", "time": "2021-10-19 11:33:44.669431", "timestamp": 1634636024}
+{"address": 2, "param": 89, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020108902=?114\r", "time": "2021-10-19 11:33:44.691826", "timestamp": 1634636024}
+{"address": 2, "param": 89, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021108906NO_DEF198\r", "time": "2021-10-19 11:33:44.718162", "timestamp": 1634636024}
+{"address": 2, "param": 90, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020109002=?106\r", "time": "2021-10-19 11:33:44.740022", "timestamp": 1634636024}
+{"address": 2, "param": 90, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021109006NO_DEF190\r", "time": "2021-10-19 11:33:44.765833", "timestamp": 1634636024}
+{"address": 2, "param": 91, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020109102=?107\r", "time": "2021-10-19 11:33:44.788307", "timestamp": 1634636024}
+{"address": 2, "param": 91, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021109106NO_DEF191\r", "time": "2021-10-19 11:33:44.814161", "timestamp": 1634636024}
+{"address": 2, "param": 92, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020109202=?108\r", "time": "2021-10-19 11:33:44.836598", "timestamp": 1634636024}
+{"address": 2, "param": 92, "action": 1, "payloadRaw": "Virginize     06111111111111", "payloadLength": 28, "packetRaw": "0021109228Virginize     06111111111111002\r", "time": "2021-10-19 11:33:44.885382", "timestamp": 1634636024}
+{"address": 2, "param": 93, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020109302=?109\r", "time": "2021-10-19 11:33:44.915627", "timestamp": 1634636024}
+{"address": 2, "param": 93, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021109306NO_DEF193\r", "time": "2021-10-19 11:33:44.941465", "timestamp": 1634636024}
+{"address": 2, "param": 94, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020109402=?110\r", "time": "2021-10-19 11:33:44.963681", "timestamp": 1634636024}
+{"address": 2, "param": 94, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021109406NO_DEF194\r", "time": "2021-10-19 11:33:44.989716", "timestamp": 1634636024}
+{"address": 2, "param": 95, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020109502=?111\r", "time": "2021-10-19 11:33:45.057489", "timestamp": 1634636025}
+{"address": 2, "param": 95, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021109506NO_DEF195\r", "time": "2021-10-19 11:33:45.059170", "timestamp": 1634636025}
+{"address": 2, "param": 96, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020109602=?112\r", "time": "2021-10-19 11:33:45.060612", "timestamp": 1634636025}
+{"address": 2, "param": 96, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021109606NO_DEF196\r", "time": "2021-10-19 11:33:45.086386", "timestamp": 1634636025}
+{"address": 2, "param": 97, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020109702=?113\r", "time": "2021-10-19 11:33:45.108728", "timestamp": 1634636025}
+{"address": 2, "param": 97, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021109706NO_DEF197\r", "time": "2021-10-19 11:33:45.134527", "timestamp": 1634636025}
+{"address": 2, "param": 98, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020109802=?114\r", "time": "2021-10-19 11:33:45.156745", "timestamp": 1634636025}
+{"address": 2, "param": 98, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021109806NO_DEF198\r", "time": "2021-10-19 11:33:45.182875", "timestamp": 1634636025}
+{"address": 2, "param": 99, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020109902=?115\r", "time": "2021-10-19 11:33:45.205085", "timestamp": 1634636025}
+{"address": 2, "param": 99, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021109906NO_DEF199\r", "time": "2021-10-19 11:33:45.230963", "timestamp": 1634636025}
+{"address": 2, "param": 300, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020130002=?100\r", "time": "2021-10-19 11:33:45.276573", "timestamp": 1634636025}
+{"address": 2, "param": 300, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021130006NO_DEF184\r", "time": "2021-10-19 11:33:45.302146", "timestamp": 1634636025}
+{"address": 2, "param": 301, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020130102=?101\r", "time": "2021-10-19 11:33:45.324395", "timestamp": 1634636025}
+{"address": 2, "param": 301, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021130106NO_DEF185\r", "time": "2021-10-19 11:33:45.350561", "timestamp": 1634636025}
+{"address": 2, "param": 302, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020130202=?102\r", "time": "2021-10-19 11:33:45.372729", "timestamp": 1634636025}
+{"address": 2, "param": 302, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021130206NO_DEF186\r", "time": "2021-10-19 11:33:45.398590", "timestamp": 1634636025}
+{"address": 2, "param": 303, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020130302=?103\r", "time": "2021-10-19 11:33:45.421361", "timestamp": 1634636025}
+{"address": 2, "param": 303, "action": 1, "payloadRaw": "Error code    41      \u007f\u007f\u007f\u007f\u007f\u007f", "payloadLength": 28, "packetRaw": "0021130328Error code    41      \u007f\u007f\u007f\u007f\u007f\u007f088\r", "time": "2021-10-19 11:33:45.470184", "timestamp": 1634636025}
+{"address": 2, "param": 304, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020130402=?104\r", "time": "2021-10-19 11:33:45.501689", "timestamp": 1634636025}
+{"address": 2, "param": 304, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021130406NO_DEF188\r", "time": "2021-10-19 11:33:45.527357", "timestamp": 1634636025}
+{"address": 2, "param": 305, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020130502=?105\r", "time": "2021-10-19 11:33:45.549225", "timestamp": 1634636025}
+{"address": 2, "param": 305, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021130506NO_DEF189\r", "time": "2021-10-19 11:33:45.575297", "timestamp": 1634636025}
+{"address": 2, "param": 306, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020130602=?106\r", "time": "2021-10-19 11:33:45.597738", "timestamp": 1634636025}
+{"address": 2, "param": 306, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021130606NO_DEF190\r", "time": "2021-10-19 11:33:45.623526", "timestamp": 1634636025}
+{"address": 2, "param": 307, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020130702=?107\r", "time": "2021-10-19 11:33:45.645763", "timestamp": 1634636025}
+{"address": 2, "param": 307, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021130706NO_DEF191\r", "time": "2021-10-19 11:33:45.671703", "timestamp": 1634636025}
+{"address": 2, "param": 308, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020130802=?108\r", "time": "2021-10-19 11:33:45.693727", "timestamp": 1634636025}
+{"address": 2, "param": 308, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021130806NO_DEF192\r", "time": "2021-10-19 11:33:45.719613", "timestamp": 1634636025}
+{"address": 2, "param": 309, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020130902=?109\r", "time": "2021-10-19 11:33:45.742007", "timestamp": 1634636025}
+{"address": 2, "param": 309, "action": 1, "payloadRaw": "ActualSpd Hz  11000000999999", "payloadLength": 28, "packetRaw": "0021130928ActualSpd Hz  11000000999999117\r", "time": "2021-10-19 11:33:45.790976", "timestamp": 1634636025}
+{"address": 2, "param": 310, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020131002=?101\r", "time": "2021-10-19 11:33:45.824245", "timestamp": 1634636025}
+{"address": 2, "param": 310, "action": 1, "payloadRaw": "DrvCurrentA   21000000999999", "payloadLength": 28, "packetRaw": "0021131028DrvCurrentA   21000000999999123\r", "time": "2021-10-19 11:33:45.873506", "timestamp": 1634636025}
+{"address": 2, "param": 311, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020131102=?102\r", "time": "2021-10-19 11:33:45.906898", "timestamp": 1634636025}
+{"address": 2, "param": 311, "action": 1, "payloadRaw": "OpHrsPump h   11000000999999", "payloadLength": 28, "packetRaw": "0021131128OpHrsPump h   11000000999999065\r", "time": "2021-10-19 11:33:45.955711", "timestamp": 1634636025}
+{"address": 2, "param": 312, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020131202=?103\r", "time": "2021-10-19 11:33:45.989500", "timestamp": 1634636025}
+{"address": 2, "param": 312, "action": 1, "payloadRaw": "Fw version    41      \u007f\u007f\u007f\u007f\u007f\u007f", "payloadLength": 28, "packetRaw": "0021131228Fw version    41      \u007f\u007f\u007f\u007f\u007f\u007f118\r", "time": "2021-10-19 11:33:46.038199", "timestamp": 1634636026}
+{"address": 2, "param": 313, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020131302=?104\r", "time": "2021-10-19 11:33:46.069391", "timestamp": 1634636026}
+{"address": 2, "param": 313, "action": 1, "payloadRaw": "DrvVoltageV   21000000999999", "payloadLength": 28, "packetRaw": "0021131328DrvVoltageV   21000000999999130\r", "time": "2021-10-19 11:33:46.118613", "timestamp": 1634636026}
+{"address": 2, "param": 314, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020131402=?105\r", "time": "2021-10-19 11:33:46.152119", "timestamp": 1634636026}
+{"address": 2, "param": 314, "action": 1, "payloadRaw": "OpHrsElec h   11000000999999", "payloadLength": 28, "packetRaw": "0021131428OpHrsElec h   11000000999999027\r", "time": "2021-10-19 11:33:46.201089", "timestamp": 1634636026}
+{"address": 2, "param": 315, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020131502=?106\r", "time": "2021-10-19 11:33:46.234705", "timestamp": 1634636026}
+{"address": 2, "param": 315, "action": 1, "payloadRaw": "NominalSpdHz  11000000999999", "payloadLength": 28, "packetRaw": "0021131528NominalSpdHz  11000000999999198\r", "time": "2021-10-19 11:33:46.283771", "timestamp": 1634636026}
+{"address": 2, "param": 316, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020131602=?107\r", "time": "2021-10-19 11:33:46.317599", "timestamp": 1634636026}
+{"address": 2, "param": 316, "action": 1, "payloadRaw": "DrvPower  W   11000000009999", "payloadLength": 28, "packetRaw": "0021131628DrvPower  W   11000000009999238\r", "time": "2021-10-19 11:33:46.365984", "timestamp": 1634636026}
+{"address": 2, "param": 317, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020131702=?108\r", "time": "2021-10-19 11:33:46.399902", "timestamp": 1634636026}
+{"address": 2, "param": 317, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021131706NO_DEF192\r", "time": "2021-10-19 11:33:46.425573", "timestamp": 1634636026}
+{"address": 2, "param": 318, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020131802=?109\r", "time": "2021-10-19 11:33:46.448050", "timestamp": 1634636026}
+{"address": 2, "param": 318, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021131806NO_DEF193\r", "time": "2021-10-19 11:33:46.473874", "timestamp": 1634636026}
+{"address": 2, "param": 319, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020131902=?110\r", "time": "2021-10-19 11:33:46.496218", "timestamp": 1634636026}
+{"address": 2, "param": 319, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021131906NO_DEF194\r", "time": "2021-10-19 11:33:46.522220", "timestamp": 1634636026}
+{"address": 2, "param": 320, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020132002=?102\r", "time": "2021-10-19 11:33:46.544185", "timestamp": 1634636026}
+{"address": 2, "param": 320, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021132006NO_DEF186\r", "time": "2021-10-19 11:33:46.570292", "timestamp": 1634636026}
+{"address": 2, "param": 321, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020132102=?103\r", "time": "2021-10-19 11:33:46.592694", "timestamp": 1634636026}
+{"address": 2, "param": 321, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021132106NO_DEF187\r", "time": "2021-10-19 11:33:46.622912", "timestamp": 1634636026}
+{"address": 2, "param": 322, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020132202=?104\r", "time": "2021-10-19 11:33:46.641030", "timestamp": 1634636026}
+{"address": 2, "param": 322, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021132206NO_DEF188\r", "time": "2021-10-19 11:33:46.666724", "timestamp": 1634636026}
+{"address": 2, "param": 323, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020132302=?105\r", "time": "2021-10-19 11:33:46.689159", "timestamp": 1634636026}
+{"address": 2, "param": 323, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021132306NO_DEF189\r", "time": "2021-10-19 11:33:46.715428", "timestamp": 1634636026}
+{"address": 2, "param": 324, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020132402=?106\r", "time": "2021-10-19 11:33:46.737681", "timestamp": 1634636026}
+{"address": 2, "param": 324, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021132406NO_DEF190\r", "time": "2021-10-19 11:33:46.763204", "timestamp": 1634636026}
+{"address": 2, "param": 325, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020132502=?107\r", "time": "2021-10-19 11:33:46.785578", "timestamp": 1634636026}
+{"address": 2, "param": 325, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021132506NO_DEF191\r", "time": "2021-10-19 11:33:46.811497", "timestamp": 1634636026}
+{"address": 2, "param": 326, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020132602=?108\r", "time": "2021-10-19 11:33:46.833600", "timestamp": 1634636026}
+{"address": 2, "param": 326, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021132606NO_DEF192\r", "time": "2021-10-19 11:33:46.859630", "timestamp": 1634636026}
+{"address": 2, "param": 327, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020132702=?109\r", "time": "2021-10-19 11:33:46.881928", "timestamp": 1634636026}
+{"address": 2, "param": 327, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021132706NO_DEF193\r", "time": "2021-10-19 11:33:46.907635", "timestamp": 1634636026}
+{"address": 2, "param": 328, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020132802=?110\r", "time": "2021-10-19 11:33:46.930341", "timestamp": 1634636026}
+{"address": 2, "param": 328, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021132806NO_DEF194\r", "time": "2021-10-19 11:33:46.956116", "timestamp": 1634636026}
+{"address": 2, "param": 329, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020132902=?111\r", "time": "2021-10-19 11:33:46.978201", "timestamp": 1634636026}
+{"address": 2, "param": 329, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021132906NO_DEF195\r", "time": "2021-10-19 11:33:47.004180", "timestamp": 1634636027}
+{"address": 2, "param": 330, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020133002=?103\r", "time": "2021-10-19 11:33:47.026557", "timestamp": 1634636027}
+{"address": 2, "param": 330, "action": 1, "payloadRaw": "TempPump  oC  11000000009999", "payloadLength": 28, "packetRaw": "0021133028TempPump  oC  11000000009999036\r", "time": "2021-10-19 11:33:47.076160", "timestamp": 1634636027}
+{"address": 2, "param": 331, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020133102=?104\r", "time": "2021-10-19 11:33:47.108958", "timestamp": 1634636027}
+{"address": 2, "param": 331, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021133106NO_DEF188\r", "time": "2021-10-19 11:33:47.134801", "timestamp": 1634636027}
+{"address": 2, "param": 332, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020133202=?105\r", "time": "2021-10-19 11:33:47.157084", "timestamp": 1634636027}
+{"address": 2, "param": 332, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021133206NO_DEF189\r", "time": "2021-10-19 11:33:47.182902", "timestamp": 1634636027}
+{"address": 2, "param": 333, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020133302=?106\r", "time": "2021-10-19 11:33:47.225503", "timestamp": 1634636027}
+{"address": 2, "param": 333, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021133306NO_DEF190\r", "time": "2021-10-19 11:33:47.251490", "timestamp": 1634636027}
+{"address": 2, "param": 334, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020133402=?107\r", "time": "2021-10-19 11:33:47.273724", "timestamp": 1634636027}
+{"address": 2, "param": 334, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021133406NO_DEF191\r", "time": "2021-10-19 11:33:47.299747", "timestamp": 1634636027}
+{"address": 2, "param": 335, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020133502=?108\r", "time": "2021-10-19 11:33:47.322218", "timestamp": 1634636027}
+{"address": 2, "param": 335, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021133506NO_DEF192\r", "time": "2021-10-19 11:33:47.347964", "timestamp": 1634636027}
+{"address": 2, "param": 336, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020133602=?109\r", "time": "2021-10-19 11:33:47.370333", "timestamp": 1634636027}
+{"address": 2, "param": 336, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021133606NO_DEF193\r", "time": "2021-10-19 11:33:47.396265", "timestamp": 1634636027}
+{"address": 2, "param": 337, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020133702=?110\r", "time": "2021-10-19 11:33:47.418472", "timestamp": 1634636027}
+{"address": 2, "param": 337, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021133706NO_DEF194\r", "time": "2021-10-19 11:33:47.444539", "timestamp": 1634636027}
+{"address": 2, "param": 338, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020133802=?111\r", "time": "2021-10-19 11:33:47.466882", "timestamp": 1634636027}
+{"address": 2, "param": 338, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021133806NO_DEF195\r", "time": "2021-10-19 11:33:47.492737", "timestamp": 1634636027}
+{"address": 2, "param": 339, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020133902=?112\r", "time": "2021-10-19 11:33:47.515520", "timestamp": 1634636027}
+{"address": 2, "param": 339, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021133906NO_DEF196\r", "time": "2021-10-19 11:33:47.541060", "timestamp": 1634636027}
+{"address": 2, "param": 340, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020134002=?104\r", "time": "2021-10-19 11:33:47.563148", "timestamp": 1634636027}
+{"address": 2, "param": 340, "action": 1, "payloadRaw": "NO_DEF", "payloadLength": 6, "packetRaw": "0021134006NO_DEF188\r", "time": "2021-10-19 11:33:47.589382", "timestamp": 1634636027}
+{"address": 2, "param": 341, "action": 0, "payloadRaw": "=?", "payloadLength": 2, "packetRaw": "0020134102=?105\r", "time": "2021-10-19 11:33:47.610885", "timestamp": 1634636027}
