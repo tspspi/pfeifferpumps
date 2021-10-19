@@ -4,6 +4,9 @@ class SerialProtocolViolation(Exception):
 class SerialCommunicationError(Exception):
     pass
 
+class SerialSimulationDone(Exception):
+    pass
+
 class PfeifferProtocol:
     def __enter__(self):
         return self
@@ -20,8 +23,12 @@ class PfeifferProtocol:
         devAddress = line[:3]
         devAction = line[3]
 
-        if line[4] != '0':
-            raise SerialProtocolViolation('Protocol violation. Byte at position 5 is not 0')
+        # The following check should verify if the byte at position 5 is
+        # always 0 as specified in the docs. This does not seem to be a valid
+        # constraint in reality?
+
+        # if line[4] != '0':
+        #    raise SerialProtocolViolation('Protocol violation. Byte at position 5 is not 0')
 
         devParamNumber = line[5:8]
         msgDataLength = line[8:10]
@@ -77,8 +84,9 @@ class PfeifferProtocol:
         return num
 
     def decodeDataType_4(self, payload):
-        if len(payload) != 6:
-            raise SerialProtocolViolation('Datatype u_string has to be 6 characters long')
+        # NOTE: Strings now seem to have (other than documentation)
+        # if len(payload) != 6:
+        #    raise SerialProtocolViolation('Datatype u_string has to be 6 characters long')
         for i in range(0, len(payload)):
             if (ord(payload[i]) < 0x20):
                 raise SerialProtocolViolation('Invalid ASCII character in u_string payload '+payload)
@@ -228,7 +236,10 @@ class PfeifferProtocol:
         if not regParam in sentenceDictionary:
             raise SerialProtocolViolation("Unknown register {} in packet".format(regParam))
 
-        packet["payload"]       = self.decodeDataType(packet["payloadRaw"], sentenceDictionary[regParam]["datatype"])
+        if packet["action"] == 1:
+            packet["payload"]   = self.decodeDataType(packet["payloadRaw"], sentenceDictionary[regParam]["datatype"])
+        else:
+            packet["payload"]   = "=?"
         packet["designation"]   = sentenceDictionary[regParam]["designation"]
         packet["displayreg"]    = sentenceDictionary[regParam]["display"]
         packet["regaccess"]     = sentenceDictionary[regParam]["access"]
