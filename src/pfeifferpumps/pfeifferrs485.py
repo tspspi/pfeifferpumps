@@ -5,7 +5,7 @@ from pfeifferpumps.pfeifferproto import PfeifferProtocol, SerialProtocolViolatio
 from datetime import datetime
 
 class PfeifferRS485Serial:
-    def __init__(self, portFile = '/dev/ttyU0', registersets = None, simulationfile = None, rawsimulationdump = True):
+    def __init__(self, portFile = '/dev/ttyU0', registersets = None, simulationfile = None, rawsimulationdump = True, pollingAsync = False):
         self.proto = PfeifferProtocol()
         self.registerset = registersets
         if registersets:
@@ -17,6 +17,8 @@ class PfeifferRS485Serial:
 
         self.port = False
         self.simfile = False
+        self.line = ""
+        self.pollingAsync = pollingAsync
         if simulationfile == None:
             self.port = serial.Serial(portFile, baudrate=9600, bytesize=serial.EIGHTBITS, parity=serial.PARITY_NONE, stopbits=serial.STOPBITS_ONE, timeout=None)
         else:
@@ -48,6 +50,8 @@ class PfeifferRS485Serial:
             raise SerialCommunicationError('Serial port not connected')
 
         line = self.serialReadNextLine()
+        if line == None:
+            return None
         packetRaw = self.proto.decodePacketRaw(line)
         if self.registerset:
             # Check if we have a protocol decoder / registerset for the given
@@ -71,9 +75,10 @@ class PfeifferRS485Serial:
             raise SerialCommunicationError("Port not ready")
 
         if self.port:
-            line = ""
             eol = "\r"
             while True:
+                if (self.port.in_waiting == 0) and self.pollingAsync:
+                    return None
                 c = self.port.read(1)
                 c = ord(c)
                 if c:
@@ -81,13 +86,15 @@ class PfeifferRS485Serial:
                         raise SerialProtocolViolation('Protocol violation. Encountered illegal byte {}'.format(c))
                         pass
                     else:
-                        line = line + chr(c)
+                        self.line = self.line + chr(c)
                         if c == 0x0D:
                             break
                 else:
                     raise SerialCommunicationError('Serial communication error')
 
-            return line
+            newLine = self.line
+            self.line = ""
+            return newLine
         else:
             line = self.simfile.readline()
             if line:
